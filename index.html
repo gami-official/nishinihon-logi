@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="大阪・福岡・神戸の物流ネットワーク。3PL、発送代行、EC物流、EC支援、倉庫保管、検品・流通加工まで。物流会社選びに迷ったら、まずGAMIへ無料相談。"
+    content="大阪・福岡・神戸をつなぐ物流ネットワーク。3PL、発送代行、EC物流、EC支援、倉庫保管、検品・流通加工、輸送手配まで。案件に合わせた物流会社・物流体制をご案内します。"
   >
 
   <style>
@@ -50,8 +50,8 @@
       font: inherit;
     }
 
-    img {
-      max-width: 100%;
+    button {
+      cursor: pointer;
     }
 
     .container {
@@ -70,14 +70,13 @@
       width: 100%;
       z-index: 1000;
 
-      background: rgba(5, 7, 11, 0.82);
+      background: rgba(5, 7, 11, 0.86);
       backdrop-filter: blur(18px);
       border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
     .header-inner {
       min-height: 74px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -112,14 +111,13 @@
       padding: 0 22px;
 
       border-radius: 999px;
-
       background: #176cff;
       color: #fff;
 
       font-size: 14px;
       font-weight: 900;
 
-      box-shadow: 0 0 35px rgba(23,108,255,0.25);
+      box-shadow: 0 0 35px rgba(23,108,255,0.24);
     }
 
     /* =========================
@@ -128,7 +126,7 @@
 
     .hero {
       min-height: 100vh;
-      padding: 150px 0 90px;
+      padding: 145px 0 85px;
 
       position: relative;
       overflow: hidden;
@@ -137,8 +135,8 @@
       align-items: center;
 
       background:
-        radial-gradient(circle at 80% 20%, rgba(23,108,255,0.28), transparent 35%),
-        radial-gradient(circle at 10% 80%, rgba(0,183,255,0.13), transparent 30%),
+        radial-gradient(circle at 80% 20%, rgba(23,108,255,0.26), transparent 35%),
+        radial-gradient(circle at 10% 80%, rgba(0,183,255,0.12), transparent 30%),
         #05070b;
     }
 
@@ -166,7 +164,7 @@
       align-items: center;
       gap: 10px;
 
-      margin-bottom: 26px;
+      margin-bottom: 25px;
       padding: 9px 15px;
 
       border: 1px solid rgba(72,146,255,0.35);
@@ -184,15 +182,16 @@
       width: 7px;
       height: 7px;
       border-radius: 50%;
+
       background: #3180ff;
       box-shadow: 0 0 15px #3180ff;
     }
 
     .hero-title {
-      max-width: 980px;
+      max-width: 930px;
 
-      font-size: clamp(52px, 7.2vw, 108px);
-      line-height: 0.96;
+      font-size: clamp(48px, 6.5vw, 96px);
+      line-height: 0.98;
 
       font-weight: 950;
       letter-spacing: -0.055em;
@@ -203,11 +202,12 @@
     }
 
     .hero-lead {
-      max-width: 700px;
-      margin-top: 32px;
+      max-width: 720px;
+      margin-top: 30px;
 
-      font-size: clamp(18px, 2vw, 24px);
-      line-height: 1.65;
+      font-size: clamp(17px, 1.7vw, 22px);
+      line-height: 1.7;
+
       color: #b7c0cf;
     }
 
@@ -216,7 +216,7 @@
     }
 
     .hero-services {
-      margin-top: 32px;
+      margin-top: 30px;
 
       display: flex;
       flex-wrap: wrap;
@@ -241,19 +241,18 @@
       flex-wrap: wrap;
       gap: 14px;
 
-      margin-top: 42px;
+      margin-top: 40px;
     }
 
     .btn-primary,
     .btn-secondary {
-      min-height: 60px;
+      min-height: 58px;
 
       display: inline-flex;
       align-items: center;
       justify-content: center;
 
       padding: 0 28px;
-
       border-radius: 12px;
 
       font-weight: 900;
@@ -264,7 +263,7 @@
       background: #176cff;
       color: #fff;
 
-      box-shadow: 0 10px 45px rgba(23,108,255,0.35);
+      box-shadow: 0 10px 45px rgba(23,108,255,0.32);
     }
 
     .btn-primary:hover {
@@ -282,7 +281,7 @@
     }
 
     .hero-network {
-      margin-top: 70px;
+      margin-top: 65px;
 
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -310,15 +309,15 @@
     }
 
     .hero-city strong {
-      font-size: 20px;
+      font-size: 19px;
     }
 
     /* =========================
-       COMMON SECTIONS
+       COMMON
     ========================= */
 
     section {
-      padding: 110px 0;
+      padding: 105px 0;
     }
 
     .section-label {
@@ -334,8 +333,8 @@
     .section-title {
       max-width: 900px;
 
-      font-size: clamp(36px, 5vw, 68px);
-      line-height: 1.08;
+      font-size: clamp(34px, 4.4vw, 62px);
+      line-height: 1.1;
       letter-spacing: -0.04em;
 
       font-weight: 950;
@@ -350,7 +349,7 @@
     }
 
     /* =========================
-       3 COMPANIES
+       COMPANIES
     ========================= */
 
     .companies {
@@ -358,7 +357,7 @@
     }
 
     .company-grid {
-      margin-top: 60px;
+      margin-top: 55px;
 
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -417,8 +416,8 @@
     .company-catch {
       margin-top: 25px;
 
-      font-size: 25px;
-      line-height: 1.35;
+      font-size: 24px;
+      line-height: 1.4;
       font-weight: 900;
     }
 
@@ -441,7 +440,6 @@
       padding: 7px 10px;
 
       border-radius: 7px;
-
       background: #111721;
       border: 1px solid rgba(255,255,255,0.08);
 
@@ -489,7 +487,6 @@
       align-items: center;
 
       border-radius: 10px;
-
       background: #176cff;
 
       font-size: 14px;
@@ -514,7 +511,7 @@
     }
 
     /* =========================
-       RESPONSE
+       SPEED
     ========================= */
 
     .speed-section {
@@ -523,7 +520,7 @@
     }
 
     .speed-inner {
-      min-height: 260px;
+      min-height: 250px;
 
       display: flex;
       align-items: center;
@@ -532,17 +529,17 @@
     }
 
     .speed-title {
-      font-size: clamp(38px, 5vw, 70px);
-      line-height: 1.05;
+      font-size: clamp(34px, 4.3vw, 62px);
+      line-height: 1.08;
       letter-spacing: -0.045em;
       font-weight: 950;
     }
 
     .speed-text {
-      max-width: 430px;
+      max-width: 450px;
 
-      font-size: 17px;
-      color: rgba(255,255,255,0.86);
+      font-size: 16px;
+      color: rgba(255,255,255,0.88);
     }
 
     /* =========================
@@ -556,8 +553,8 @@
     }
 
     .diagnosis-box {
-      margin-top: 50px;
-      padding: 44px;
+      margin-top: 48px;
+      padding: 42px;
 
       border: 1px solid rgba(255,255,255,0.1);
       border-radius: 24px;
@@ -600,10 +597,6 @@
       resize: vertical;
     }
 
-    .full {
-      grid-column: 1 / -1;
-    }
-
     .diagnosis-result {
       display: none;
 
@@ -618,53 +611,53 @@
 
     .diagnosis-result strong {
       display: block;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
 
       font-size: 20px;
     }
 
     /* =========================
-       GAMI CTA
+       NETWORK / FIRST CONTACT
     ========================= */
 
-    .gami-cta {
+    .network-cta {
       background: #ffffff;
       color: #06080d;
     }
 
-    .gami-cta-inner {
+    .network-cta-inner {
       display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
+      grid-template-columns: 1.15fr 0.85fr;
       gap: 70px;
       align-items: center;
     }
 
-    .gami-big {
-      font-size: clamp(42px, 6vw, 84px);
-      line-height: 1;
+    .network-big {
+      font-size: clamp(38px, 5vw, 72px);
+      line-height: 1.05;
       letter-spacing: -0.05em;
       font-weight: 950;
     }
 
-    .gami-copy {
+    .network-copy {
       margin-top: 24px;
 
       max-width: 720px;
 
       color: #505967;
-      font-size: 18px;
+      font-size: 17px;
     }
 
-    .gami-copy strong {
+    .network-copy strong {
       color: #000;
     }
 
-    .gami-badges {
+    .network-badges {
       display: grid;
       gap: 10px;
     }
 
-    .gami-badge {
+    .network-badge {
       padding: 18px;
 
       border-radius: 12px;
@@ -672,6 +665,14 @@
 
       font-size: 14px;
       font-weight: 900;
+    }
+
+    .network-note {
+      margin-top: 14px;
+
+      color: #687180;
+      font-size: 12px;
+      line-height: 1.7;
     }
 
     /* =========================
@@ -686,7 +687,6 @@
       display: grid;
       grid-template-columns: 0.8fr 1.2fr;
       gap: 70px;
-
       align-items: start;
     }
 
@@ -697,7 +697,6 @@
 
     .contact-note {
       margin-top: 28px;
-
       padding: 20px;
 
       border: 1px solid rgba(255,255,255,0.1);
@@ -725,9 +724,36 @@
       gap: 18px;
     }
 
+    .privacy-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+
+      margin: 4px 0 5px;
+
+      font-size: 13px;
+      line-height: 1.6;
+
+      color: #aab4c3;
+      cursor: pointer;
+    }
+
+    .privacy-label input {
+      width: 18px;
+      height: 18px;
+
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .privacy-label a {
+      color: #4f8cff;
+      text-decoration: underline;
+    }
+
     .submit-btn {
       width: 100%;
-      min-height: 64px;
+      min-height: 62px;
 
       border: 0;
       border-radius: 10px;
@@ -739,6 +765,11 @@
       cursor: pointer;
 
       box-shadow: 0 10px 40px rgba(23,108,255,0.25);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.6;
+      cursor: wait;
     }
 
     /* =========================
@@ -769,7 +800,7 @@
     }
 
     /* =========================
-       RESPONSIVE
+       TABLET
     ========================= */
 
     @media (max-width: 900px) {
@@ -798,23 +829,22 @@
 
       .hero {
         min-height: auto;
-        padding: 120px 0 65px;
+        padding: 115px 0 65px;
       }
 
       .hero-title {
-        font-size: clamp(48px, 13vw, 76px);
-        line-height: 0.98;
-        letter-spacing: -0.05em;
+        font-size: clamp(40px, 10vw, 58px);
+        line-height: 1.02;
       }
 
       .hero-lead {
-        margin-top: 26px;
-        font-size: 17px;
+        margin-top: 25px;
+        font-size: 16px;
       }
 
       .hero-network {
         grid-template-columns: 1fr;
-        margin-top: 50px;
+        margin-top: 48px;
       }
 
       .hero-city {
@@ -827,7 +857,15 @@
       }
 
       section {
-        padding: 80px 0;
+        padding: 75px 0;
+      }
+
+      .section-title {
+        font-size: clamp(30px, 7vw, 44px);
+      }
+
+      .section-description {
+        font-size: 15px;
       }
 
       .company-grid {
@@ -840,10 +878,14 @@
 
       .speed-inner {
         min-height: auto;
-        padding: 60px 0;
+        padding: 55px 0;
 
         flex-direction: column;
         align-items: flex-start;
+      }
+
+      .speed-title {
+        font-size: clamp(30px, 7vw, 44px);
       }
 
       .diagnosis-box {
@@ -854,11 +896,7 @@
         grid-template-columns: 1fr;
       }
 
-      .full {
-        grid-column: auto;
-      }
-
-      .gami-cta-inner,
+      .network-cta-inner,
       .contact-wrap {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -885,7 +923,7 @@
         justify-content: center;
         align-items: center;
 
-        min-height: 58px;
+        min-height: 56px;
 
         border-radius: 12px;
 
@@ -895,30 +933,70 @@
         font-size: 14px;
         font-weight: 950;
 
-        box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+        box-shadow: 0 12px 35px rgba(0,0,0,0.38);
       }
     }
+
+    /* =========================
+       MOBILE
+    ========================= */
 
     @media (max-width: 520px) {
 
       .container {
-        width: calc(100% - 24px);
+        width: calc(100% - 30px);
+      }
+
+      .header-inner {
+        min-height: 66px;
+      }
+
+      .brand-main {
+        font-size: 16px;
+      }
+
+      .header-cta {
+        min-height: 38px;
+        padding: 0 13px;
+        font-size: 11px;
       }
 
       .hero {
         padding-top: 105px;
+        padding-bottom: 55px;
       }
 
       .eyebrow {
-        font-size: 10px;
-        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+
+        font-size: 9px;
+        letter-spacing: 0.11em;
       }
 
       .hero-title {
-        font-size: clamp(44px, 14vw, 62px);
+        font-size: clamp(38px, 11vw, 48px);
+        line-height: 1.04;
+        letter-spacing: -0.045em;
+      }
+
+      .hero-lead {
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .hero-services {
+        margin-top: 25px;
+        gap: 8px;
+      }
+
+      .service-pill {
+        padding: 8px 12px;
+        font-size: 11px;
       }
 
       .hero-actions {
+        margin-top: 32px;
+
         display: grid;
         grid-template-columns: 1fr;
       }
@@ -926,10 +1004,39 @@
       .btn-primary,
       .btn-secondary {
         width: 100%;
+        min-height: 54px;
+      }
+
+      .hero-city {
+        padding: 20px 14px;
+      }
+
+      .hero-city strong {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 65px 0;
+      }
+
+      .section-label {
+        font-size: 10px;
       }
 
       .section-title {
-        font-size: 38px;
+        font-size: 30px;
+        line-height: 1.2;
+      }
+
+      .section-description {
+        margin-top: 18px;
+
+        font-size: 14px;
+        line-height: 1.8;
+      }
+
+      .company-grid {
+        margin-top: 38px;
       }
 
       .company-card {
@@ -937,20 +1044,53 @@
       }
 
       .company-name {
-        font-size: 23px;
+        font-size: 22px;
       }
 
       .company-catch {
-        font-size: 22px;
+        margin-top: 20px;
+
+        font-size: 19px;
+        line-height: 1.5;
+      }
+
+      .company-text {
+        font-size: 14px;
+      }
+
+      .company-point {
+        font-size: 13px;
+      }
+
+      .speed-title {
+        font-size: 30px;
+      }
+
+      .speed-text {
+        font-size: 14px;
       }
 
       .diagnosis-box,
       .contact-form {
-        padding: 20px;
+        padding: 20px 16px;
       }
 
-      .gami-big {
-        font-size: 48px;
+      .network-big {
+        font-size: 32px;
+        line-height: 1.15;
+      }
+
+      .network-copy {
+        font-size: 14px;
+      }
+
+      .network-badge {
+        padding: 15px;
+        font-size: 13px;
+      }
+
+      footer {
+        padding-bottom: 95px;
       }
     }
   </style>
@@ -967,7 +1107,7 @@
     </a>
 
     <a href="#contact" class="header-cta">
-      GAMIへ無料相談
+      物流を無料相談
     </a>
 
   </div>
@@ -988,14 +1128,14 @@
 
     <h1 class="hero-title">
       西日本の物流を、<br>
-      <span class="blue">3社で動かす。</span>
+      <span class="blue">3社で支える。</span>
     </h1>
 
     <p class="hero-lead">
       大阪・福岡・神戸をつなぐ物流ネットワーク。<br>
       <strong>3PL・発送代行・EC物流・EC支援。</strong><br>
-      どこに頼めばいいか分からなくても大丈夫。<br>
-      まずGAMIが案件を整理します。
+      物流会社が決まっていなくても大丈夫。<br>
+      ご相談内容に応じて、適した物流体制をご案内します。
     </p>
 
     <div class="hero-services">
@@ -1049,16 +1189,18 @@
 
   <div class="container">
 
-    <p class="section-label">THREE LOGISTICS COMPANIES</p>
+    <p class="section-label">
+      THREE LOGISTICS COMPANIES
+    </p>
 
     <h2 class="section-title">
-      同じ物流会社じゃない。<br>
-      それぞれに、武器がある。
+      3社それぞれに、<br>
+      得意な物流がある。
     </h2>
 
     <p class="section-description">
       3社すべてが3PL・発送代行・EC物流・EC支援に対応。
-      さらに、それぞれの拠点・設備・得意領域を活かして、
+      さらに、それぞれの拠点・設備・得意領域を活かし、
       案件に合わせた物流体制を組み立てます。
     </p>
 
@@ -1111,7 +1253,7 @@
             class="company-consult"
             onclick="selectCompany('株式会社GAMI')"
           >
-            GAMIに直接相談する
+            GAMIについて相談する
           </a>
 
           <a
@@ -1172,7 +1314,7 @@
             class="company-consult"
             onclick="selectCompany('株式会社マックスエクスプレス')"
           >
-            GAMI経由でMAXに相談
+            MAX EXPRESSについて相談する
           </a>
 
           <a
@@ -1233,7 +1375,7 @@
             class="company-consult"
             onclick="selectCompany('株式会社エスグロー')"
           >
-            GAMI経由でエスグローに相談
+            S-GROWについて相談する
           </a>
 
           <a
@@ -1262,14 +1404,16 @@
   <div class="container speed-inner">
 
     <h2 class="speed-title">
-      遅い物流会社は、<br>
-      選ばない。
+      物流は、<br>
+      スピードも大事。
     </h2>
 
     <p class="speed-text">
       GAMI・マックスエクスプレス・エスグロー。<br><br>
+
       3社に共通するのは、
       <strong>レスポンスの速さ。</strong><br><br>
+
       物流の相談だからこそ、
       返事が早く、話が早く、動きが早いことを大切にしています。
     </p>
@@ -1284,16 +1428,18 @@
 
   <div class="container">
 
-    <p class="section-label">30 SECOND LOGISTICS CHECK</p>
+    <p class="section-label">
+      30 SECOND LOGISTICS CHECK
+    </p>
 
     <h2 class="section-title">
-      どこに頼むかより、<br>
-      まず案件を聞かせてください。
+      どの会社が合うか、<br>
+      まだ決まっていなくても大丈夫。
     </h2>
 
     <p class="section-description">
-      会社を決めてから相談する必要はありません。
-      内容を確認し、大阪・福岡・神戸から最適な方向性を整理します。
+      希望エリアや物流内容を確認し、
+      大阪・福岡・神戸の3社から適した方向性をご案内します。
     </p>
 
 
@@ -1376,10 +1522,10 @@
       <div id="diagnosisResult" class="diagnosis-result">
 
         <strong>
-          まずGAMIへご相談ください。
+          ご相談内容を確認します。
         </strong>
 
-        条件を確認した上で、
+        西日本ロジNAVIの運営窓口が内容を確認し、
         GAMI・マックスエクスプレス・エスグローの
         各社の特徴を踏まえてご案内します。
 
@@ -1390,7 +1536,7 @@
           class="btn-primary"
           style="display:inline-flex;"
         >
-          この内容でGAMIへ相談する
+          この内容で物流相談する
         </a>
 
       </div>
@@ -1402,67 +1548,71 @@
 </section>
 
 
-<!-- GAMI CTA -->
-<section class="gami-cta">
+<!-- NETWORK CTA -->
+<section class="network-cta">
 
-  <div class="container gami-cta-inner">
+  <div class="container network-cta-inner">
 
     <div>
 
       <p class="section-label">
-        FIRST CONTACT : GAMI
+        WEST JAPAN LOGISTICS NETWORK
       </p>
 
-      <h2 class="gami-big">
-        迷ったら、<br>
-        GAMIに<br>
-        投げてください。
+      <h2 class="network-big">
+        物流会社選びから、<br>
+        相談できます。
       </h2>
 
-      <p class="gami-copy">
-        「大阪がいいのか、福岡がいいのか、神戸がいいのか分からない。」
-        それで構いません。
+      <p class="network-copy">
+        「大阪・福岡・神戸のどこがいいか分からない」
+        「自社の案件に合う会社を知りたい」
+        という段階でも構いません。
+
         <br><br>
 
         <strong>
-          GAMIが最初の相談窓口になります。
+          まずは西日本ロジNAVIへご相談ください。
         </strong>
 
         <br><br>
 
-        保管、発送、EC物流、3PL、輸送、流通加工。
-        案件内容を確認し、
-        必要に応じて西日本の3社ネットワークから
-        適した体制をご提案します。
+        保管、発送、EC物流、3PL、輸送、流通加工など、
+        ご相談内容を確認し、3社の特徴を踏まえて
+        適した物流体制をご案内します。
+      </p>
+
+      <p class="network-note">
+        ※お問い合わせの一次受付・運営窓口は株式会社GAMIが担当します。
       </p>
 
     </div>
 
 
-    <div class="gami-badges">
+    <div class="network-badges">
 
-      <div class="gami-badge">
-        ✓ 小ロット・1坪から相談
+      <div class="network-badge">
+        ✓ 大阪・福岡・神戸の3社ネットワーク
       </div>
 
-      <div class="gami-badge">
+      <div class="network-badge">
         ✓ 3PL・EC物流・発送代行
       </div>
 
-      <div class="gami-badge">
-        ✓ 検品・流通加工
+      <div class="network-badge">
+        ✓ 倉庫保管・検品・流通加工
       </div>
 
-      <div class="gami-badge">
-        ✓ 第一種貨物利用運送
+      <div class="network-badge">
+        ✓ 小ロットから物流相談可能
       </div>
 
-      <div class="gami-badge">
-        ✓ 化粧品製造業許可取得倉庫
+      <div class="network-badge">
+        ✓ 会社が決まっていなくても相談可能
       </div>
 
       <a href="#contact" class="btn-primary">
-        GAMIへ無料相談 →
+        物流について無料相談 →
       </a>
 
     </div>
@@ -1484,8 +1634,8 @@
       </p>
 
       <h2 class="section-title">
-        物流の相談、<br>
-        まずGAMIへ。
+        物流の相談は、<br>
+        こちらから。
       </h2>
 
       <p class="section-description">
@@ -1495,12 +1645,23 @@
         という段階でもご相談いただけます。
       </p>
 
+
       <div class="contact-note">
-        <strong>西日本ロジNAVI 運営・一次相談窓口</strong><br>
-        株式会社GAMI<br><br>
+
+        <strong>
+          西日本ロジNAVI 運営・一次受付窓口
+        </strong>
+
+        <br>
+
+        株式会社GAMI
+
+        <br><br>
 
         お問い合わせ内容を確認し、
-        案件に応じて最適な物流体制をご案内します。
+        ご希望の会社や案件内容に応じて
+        3社と連携して対応します。
+
       </div>
 
     </div>
@@ -1515,18 +1676,15 @@
           <input type="text" name="company" required>
         </div>
 
-
         <div class="field">
           <label>お名前</label>
           <input type="text" name="name" required>
         </div>
 
-
         <div class="field">
           <label>メールアドレス</label>
           <input type="email" name="email" required>
         </div>
-
 
         <div class="field">
           <label>電話番号</label>
@@ -1535,18 +1693,21 @@
 
 
         <div class="field">
+
           <label>相談したい会社</label>
 
           <select name="target" id="targetCompany">
-            <option>GAMIに相談して最適な会社を選びたい</option>
+            <option>まだ決めていない・相談して選びたい</option>
             <option>株式会社GAMI</option>
             <option>株式会社マックスエクスプレス</option>
             <option>株式会社エスグロー</option>
           </select>
+
         </div>
 
 
         <div class="field">
+
           <label>お問い合わせ内容</label>
 
           <textarea
@@ -1554,24 +1715,34 @@
             placeholder="商品内容、月間出荷数、保管量、希望エリア、現在のお困りごとなどをご記入ください。"
             required
           ></textarea>
+
         </div>
 
-<label style="display:flex; align-items:flex-start; gap:10px; margin:4px 0 18px; font-size:13px; line-height:1.6; color:#aab4c3; cursor:pointer;">
-  <input
-    type="checkbox"
-    name="privacy"
-    required
-    style="width:18px; height:18px; margin-top:2px; flex-shrink:0;"
-  >
-  <span>
-    <a href="/privacy.html" target="_blank" rel="noopener" style="color:#4f8cff; text-decoration:underline;">
-      プライバシーポリシー
-    </a>
-    を確認し、個人情報の取り扱いに同意します。
-  </span>
-</label>
+
+        <label class="privacy-label">
+
+          <input
+            type="checkbox"
+            name="privacy"
+            required
+          >
+
+          <span>
+            <a
+              href="/privacy.html"
+              target="_blank"
+              rel="noopener"
+            >
+              プライバシーポリシー
+            </a>
+            を確認し、個人情報の取り扱いに同意します。
+          </span>
+
+        </label>
+
+
         <button type="submit" class="submit-btn">
-          GAMIへ無料相談を送る →
+          無料相談を送る →
         </button>
 
       </div>
@@ -1590,7 +1761,7 @@
   <div class="container footer-inner">
 
     <div>
-      © 西日本ロジNAVI / 株式会社GAMI
+      © 西日本ロジNAVI
     </div>
 
     <div>
@@ -1603,7 +1774,7 @@
 
 
 <a href="#contact" class="mobile-fixed">
-  GAMIへ物流相談 →
+  物流について無料相談 →
 </a>
 
 
@@ -1611,15 +1782,18 @@
 
   function selectCompany(companyName) {
 
-    const select = document.getElementById("targetCompany");
+    const select =
+      document.getElementById("targetCompany");
 
     if (!select) return;
 
     for (let i = 0; i < select.options.length; i++) {
 
       if (select.options[i].text === companyName) {
+
         select.selectedIndex = i;
         break;
+
       }
 
     }
@@ -1643,68 +1817,82 @@
 
 
   document
-  .getElementById("contactForm")
-  .addEventListener("submit", async function(e) {
+    .getElementById("contactForm")
+    .addEventListener("submit", async function(e) {
 
-    e.preventDefault();
+      e.preventDefault();
 
-    const form = e.currentTarget;
-    const button = form.querySelector(".submit-btn");
+      const form = e.currentTarget;
+      const button = form.querySelector(".submit-btn");
 
-    const formData = new FormData(form);
+      const formData = new FormData(form);
 
-    const data = {
-      company: formData.get("company"),
-      name: formData.get("name"),
-      email: formData.get("email"),
-      tel: formData.get("tel"),
-      target: formData.get("target"),
-      message: formData.get("message")
-    };
+      const data = {
+        company: formData.get("company"),
+        name: formData.get("name"),
+        email: formData.get("email"),
+        tel: formData.get("tel"),
+        target: formData.get("target"),
+        message: formData.get("message")
+      };
 
-    const originalText = button.textContent;
+      const originalText = button.textContent;
 
-    button.disabled = true;
-    button.textContent = "送信中...";
+      button.disabled = true;
+      button.textContent = "送信中...";
 
-    try {
+      try {
 
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-      });
+        const response = await fetch("/api/contact", {
 
-      const result = await response.json();
+          method: "POST",
 
-      if (!response.ok) {
-        throw new Error(result.error || "送信に失敗しました。");
+          headers: {
+            "Content-Type": "application/json"
+          },
+
+          body: JSON.stringify(data)
+
+        });
+
+
+        const result = await response.json();
+
+
+        if (!response.ok) {
+
+          throw new Error(
+            result.error || "送信に失敗しました。"
+          );
+
+        }
+
+
+        alert(
+          "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
+        );
+
+
+        form.reset();
+
+
+      } catch (error) {
+
+        console.error(error);
+
+        alert(
+          "送信に失敗しました。\n時間をおいて再度お試しください。"
+        );
+
+
+      } finally {
+
+        button.disabled = false;
+        button.textContent = originalText;
+
       }
 
-      alert(
-        "お問い合わせありがとうございます。\n内容を確認後、GAMIよりご連絡いたします。"
-      );
-
-      form.reset();
-
-    } catch (error) {
-
-      console.error(error);
-
-      alert(
-        "送信に失敗しました。\n時間をおいて再度お試しください。"
-      );
-
-    } finally {
-
-      button.disabled = false;
-      button.textContent = originalText;
-
-    }
-
-  });
+    });
 
 </script>
 
