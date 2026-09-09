@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>西日本ロジNAVI｜大阪・福岡・神戸の物流会社選び・物流相談</title>
+
+  <meta name="description" content="西日本の物流会社選びなら西日本ロジNAVI。大阪・福岡・神戸を中心に、EC物流、発送代行、倉庫保管、検品、流通加工、3PLなど物流課題に合わせてご案内します。物流相談の総合窓口は株式会社GAMI。">
+
+  <meta name="keywords" content="西日本 物流会社,大阪 物流会社,福岡 物流会社,神戸 物流会社,物流倉庫,EC物流,発送代行,倉庫保管,流通加工,3PL">
+
+  <meta property="og:title" content="西日本ロジNAVI｜大阪・福岡・神戸の物流会社選び">
+  <meta property="og:description" content="大阪・福岡・神戸の物流会社を、案件内容に合わせてご案内。まずは物流の無料相談から。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        "Yu Gothic",
+        Meiryo,
+        sans-serif;
+      color: #102033;
+      background: #ffffff;
+      line-height: 1.8;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #e8edf2;
+    }
+
+    .header-inner {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: .02em;
+    }
+
+    .logo span {
+      color: #1570ef;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .header-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #1570ef;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-weight: 800;
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at 80% 20%, rgba(21,112,239,.16), transparent 34%),
+        linear-gradient(135deg, #f7fbff 0%, #ffffff 58%, #f2f8ff 100%);
+      padding: 100px 0 90px;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 900;
+      color: #1570ef;
+      background: #eaf3ff;
+      padding: 7px 14px;
+      border-radius: 999px;
+      margin-bottom: 22px;
+      letter-spacing: .08em;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 5vw, 68px);
+      line-height: 1.18;
+      letter-spacing: -.04em;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 strong {
+      color: #1570ef;
+    }
+
+    .hero-copy {
+      font-size: 18px;
+      color: #536579;
+      max-width: 720px;
+      margin-bottom: 32px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 58px;
+      padding: 0 28px;
+      border-radius: 12px;
+      font-weight: 900;
+      transition: .2s ease;
+    }
+
+    .btn-primary {
+      background: #1570ef;
+      color: white;
+      box-shadow: 0 12px 30px rgba(21,112,239,.22);
+    }
+
+    .btn-secondary {
+      background: white;
+      border: 1px solid #ced8e5;
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+    }
+
+    .hero-note {
+      font-size: 13px;
+      color: #6e7f92;
+    }
+
+    .hero-card {
+      background: #102033;
+      color: white;
+      padding: 34px;
+      border-radius: 26px;
+      box-shadow: 0 28px 70px rgba(16,32,51,.18);
+    }
+
+    .hero-card-label {
+      font-size: 12px;
+      letter-spacing: .12em;
+      opacity: .65;
+      margin-bottom: 18px;
+    }
+
+    .area-row {
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(255,255,255,.13);
+    }
+
+    .area-row:last-child {
+      border-bottom: 0;
+    }
+
+    .area-city {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .area-company {
+      margin-top: 4px;
+      font-size: 14px;
+      opacity: .75;
+    }
+
+    section {
+      padding: 96px 0;
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 52px;
+    }
+
+    .section-kicker {
+      font-size: 13px;
+      color: #1570ef;
+      font-weight: 900;
+      letter-spacing: .12em;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.3;
+      margin-bottom: 16px;
+      letter-spacing: -.03em;
+    }
+
+    .section-desc {
+      color: #607186;
+      font-size: 16px;
+    }
+
+    .company-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .company-card {
+      position: relative;
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 22px;
+      padding: 32px;
+      box-shadow: 0 12px 40px rgba(15,33,56,.06);
+      display: flex;
+      flex-direction: column;
+      min-height: 430px;
+    }
+
+    .company-badge {
+      width: fit-content;
+      color: #1570ef;
+      background: #eaf3ff;
+      font-size: 12px;
+      font-weight: 900;
+      padding: 6px 11px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+
+    .company-city {
+      font-size: 13px;
+      color: #738399;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .company-name {
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 1.35;
+      margin-bottom: 18px;
+    }
+
+    .company-text {
+      color: #5d6f84;
+      margin-bottom: 22px;
+    }
+
+    .tag-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: auto;
+      margin-bottom: 25px;
+    }
+
+    .tag {
+      background: #f2f5f8;
+      padding: 6px 10px;
+      font-size: 12px;
+      border-radius: 7px;
+      font-weight: 700;
+    }
+
+    .company-link {
+      display: block;
+      text-align: center;
+      background: #102033;
+      color: white;
+      padding: 13px 16px;
+      border-radius: 10px;
+      font-weight: 800;
+    }
+
+    .problem {
+      background: #f6f9fc;
+    }
+
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .problem-card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid #e5ebf2;
+    }
+
+    .problem-number {
+      font-size: 12px;
+      font-weight: 900;
+      color: #1570ef;
+      margin-bottom: 10px;
+    }
+
+    .problem-card h3 {
+      font-size: 19px;
+      margin-bottom: 8px;
+    }
+
+    .problem-card p {
+      color: #66788d;
+      font-size: 14px;
+    }
+
+    .flow-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .flow-item {
+      padding: 26px 22px;
+      border: 1px solid #dfe6ee;
+      border-radius: 18px;
+    }
+
+    .flow-step {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      background: #1570ef;
+      color: white;
+      border-radius: 50%;
+      font-weight: 900;
+      margin-bottom: 16px;
+    }
+
+    .flow-item h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .flow-item p {
+      color: #66788d;
+      font-size: 14px;
+    }
+
+    .consult {
+      background: #102033;
+      color: white;
+    }
+
+    .consult .section-kicker {
+      color: #75afff;
+    }
+
+    .consult .section-desc {
+      color: #b9c6d5;
+    }
+
+    .consult-box {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .consult-points {
+      margin-top: 28px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .consult-point {
+      font-size: 15px;
+      color: #dce5ef;
+    }
+
+    .form-card {
+      background: white;
+      color: #102033;
+      border-radius: 22px;
+      padding: 34px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .field {
+      margin-bottom: 18px;
+    }
+
+    .field.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid #cfd9e5;
+      background: #fff;
+      border-radius: 10px;
+      padding: 13px 14px;
+      font: inherit;
+      outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #1570ef;
+      box-shadow: 0 0 0 3px rgba(21,112,239,.1);
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .submit-btn {
+      width: 100%;
+      min-height: 58px;
+      border: 0;
+      border-radius: 11px;
+      background: #1570ef;
+      color: white;
+      font-size: 16px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .form-note {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #78889a;
+    }
+
+    .operator {
+      padding: 50px 0;
+      border-top: 1px solid #e7ecf1;
+    }
+
+    .operator-box {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .operator-label {
+      font-size: 12px;
+      color: #738399;
+      font-weight: 900;
+      letter-spacing: .1em;
+    }
+
+    .operator-name {
+      font-size: 20px;
+      font-weight: 900;
+      margin-top: 4px;
+    }
+
+    .operator-text {
+      max-width: 620px;
+      color: #66788d;
+      font-size: 14px;
+    }
+
+    footer {
+      background: #08121e;
+      color: #aab9c9;
+      padding: 38px 0;
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-logo {
+      color: white;
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .mobile-cta {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .header-nav {
+        display: none;
+      }
+
+      .hero {
+        padding: 70px 0 70px;
+      }
+
+      .hero-grid,
+      .consult-box {
+        grid-template-columns: 1fr;
+      }
+
+      .company-grid,
+      .problem-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .flow-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .company-card {
+        min-height: unset;
+      }
+
+      .operator-box,
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 28px, 1120px);
+      }
+
+      .header-inner {
+        min-height: 64px;
+      }
+
+      .logo {
+        font-size: 20px;
+      }
+
+      section {
+        padding: 72px 0;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero-copy {
+        font-size: 16px;
+      }
+
+      .hero-actions {
+        display: grid;
+      }
+
+      .btn-primary,
+      .btn-secondary {
+        width: 100%;
+      }
+
+      .flow-grid,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mobile-cta {
+        display: block;
+        position: fixed;
+        bottom: 14px;
+        left: 14px;
+        right: 14px;
+        z-index: 999;
+      }
+
+      .mobile-cta a {
+        display: block;
+        text-align: center;
+        background: #1570ef;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 12px;
+        font-weight: 900;
+        box-shadow: 0 10px 30px rgba(21,112,239,.35);
+      }
+
+      body {
+        padding-bottom: 72px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "西日本ロジNAVI",
+    "description": "大阪・福岡・神戸を中心とした西日本の物流会社選び・物流相談ポータル",
+    "inLanguage": "ja"
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      西日本ロジ<span>NAVI</span>
+    </a>
+
+    <nav class="header-nav">
+      <a href="#companies">物流会社</a>
+      <a href="#services">相談内容</a>
+      <a href="#flow">ご相談の流れ</a>
+      <a href="#contact" class="header-btn">無料物流相談</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div>
+        <div class="eyebrow">WEST JAPAN LOGISTICS NETWORK</div>
+
+        <h1>
+          西日本の物流会社選び、<br>
+          <strong>まずここから。</strong>
+        </h1>
+
+        <p class="hero-copy">
+          大阪・福岡・神戸を中心に、
+          EC物流、発送代行、倉庫保管、検品、流通加工、3PLまで。
+          物量・地域・作業内容に合わせて、
+          西日本の物流パートナーをご案内します。
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">
+            物流について無料相談する
+          </a>
+
+          <a href="#companies" class="btn-secondary">
+            3社を見る
+          </a>
+        </div>
+
+        <p class="hero-note">
+          ※物流相談の一次窓口は株式会社GAMIが担当します。
+        </p>
+      </div>
+
+      <div class="hero-card">
+
+        <div class="hero-card-label">
+          WEST JAPAN PARTNERS
+        </div>
+
+        <div class="area-row">
+          <div class="area-city">大阪</div>
+          <div class="area-company">
+            株式会社GAMI
+          </div>
+        </div>
+
+        <div class="area-row">
+          <div class="area-city">福岡</div>
+          <div class="area-company">
+            株式会社マックスエクスプレス
+          </div>
+        </div>
+
+        <div class="area-row">
+          <div class="area-city">神戸</div>
+          <div class="area-company">
+            株式会社エスグロー
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="companies">
+    <div class="container">
+
+      <div class="section-head">
+        <div class="section-kicker">
+          LOGISTICS PARTNERS
+        </div>
+
+        <h2 class="section-title">
+          西日本の物流を支える3社
+        </h2>
+
+        <p class="section-desc">
+          物流は、会社によって得意分野が異なります。
+          小ロット、EC、大型物流、流通加工、システム連携など、
+          案件内容に応じて適した物流会社をご案内します。
+        </p>
+      </div>
+
+
+      <div class="company-grid">
+
+        <article class="company-card">
+
+          <div class="company-badge">
+            大阪代表
+          </div>
+
+          <div class="company-city">
+            OSAKA
+          </div>
+
+          <div class="company-name">
+            株式会社GAMI
+          </div>
+
+          <p class="company-text">
+            小ロットからEC物流、発送代行、倉庫保管、
+            検品・セット組みなどの流通加工まで。
+            柔軟な対応を得意とする物流会社です。
+          </p>
+
+          <div class="tag-wrap">
+            <span class="tag">小ロット</span>
+            <span class="tag">EC物流</span>
+            <span class="tag">発送代行</span>
+            <span class="tag">検品</span>
+            <span class="tag">流通加工</span>
+            <span class="tag">365日対応</span>
+          </div>
+
+          <a href="#contact"
+             class="company-link"
+             data-company="株式会社GAMI">
+            GAMIについて相談
+          </a>
+
+        </article>
+
+
+        <article class="company-card">
+
+          <div class="company-badge">
+            福岡代表
+          </div>
+
+          <div class="company-city">
+            FUKUOKA
+          </div>
+
+          <div class="company-name">
+            株式会社マックスエクスプレス
+          </div>
+
+          <p class="company-text">
+            福岡を拠点に物流サービスを展開。
+            倉庫運営だけでなく、
+            EC・CRM・ITなどを含めた
+            業務全体の相談にも対応します。
+          </p>
+
+          <div class="tag-wrap">
+            <span class="tag">福岡物流</span>
+            <span class="tag">倉庫</span>
+            <span class="tag">EC支援</span>
+            <span class="tag">IT支援</span>
+            <span class="tag">業務設計</span>
+          </div>
+
+          <a href="#contact"
+             class="company-link"
+             data-company="株式会社マックスエクスプレス">
+            MAXについて相談
+          </a>
+
+        </article>
+
+
+        <article class="company-card">
+
+          <div class="company-badge">
+            神戸代表
+          </div>
+
+          <div class="company-city">
+            KOBE
+          </div>
+
+          <div class="company-name">
+            株式会社エスグロー
+          </div>
+
+          <p class="company-text">
+            神戸を中心に物流センターを展開。
+            EC物流、3PL、倉庫運営、
+            ピッキング、流通加工など
+            幅広い物流業務に対応します。
+          </p>
+
+          <div class="tag-wrap">
+            <span class="tag">神戸物流</span>
+            <span class="tag">3PL</span>
+            <span class="tag">EC物流</span>
+            <span class="tag">物流センター</span>
+            <span class="tag">流通加工</span>
+          </div>
+
+          <a href="#contact"
+             class="company-link"
+             data-company="株式会社エスグロー">
+            エスグローについて相談
+          </a>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="problem" id="services">
+    <div class="container">
+
+      <div class="section-head">
+
+        <div class="section-kicker">
+          LOGISTICS CONSULTING
+        </div>
+
+        <h2 class="section-title">
+          こんな物流相談を受け付けています
+        </h2>
+
+        <p class="section-desc">
+          「どの会社に相談したらいいか分からない」
+          という段階でも大丈夫です。
+        </p>
+
+      </div>
+
+
+      <div class="problem-grid">
+
+        <div class="problem-card">
+          <div class="problem-number">01</div>
+          <h3>EC発送を外注したい</h3>
+          <p>
+            自社発送から物流会社への切り替え、
+            楽天・Amazon・自社ECなどの発送代行。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-number">02</div>
+          <h3>倉庫を探している</h3>
+          <p>
+            数坪の小規模保管から、
+            大型倉庫・物流センターまで相談できます。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-number">03</div>
+          <h3>検品・加工を任せたい</h3>
+          <p>
+            検品、シール貼り、セット組み、
+            梱包、封入などの流通加工。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-number">04</div>
+          <h3>物流コストを見直したい</h3>
+          <p>
+            現在の物流体制や物量を確認し、
+            委託先変更も含めて検討します。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-number">05</div>
+          <h3>西日本に物流拠点が欲しい</h3>
+          <p>
+            大阪・福岡・神戸を中心に、
+            配送エリアや納期から拠点を検討します。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="problem-number">06</div>
+          <h3>どこへ頼むべきか分からない</h3>
+          <p>
+            ご相談内容を確認し、
+            案件に合う物流会社をご案内します。
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="flow">
+    <div class="container">
+
+      <div class="section-head">
+
+        <div class="section-kicker">
+          HOW IT WORKS
+        </div>
+
+        <h2 class="section-title">
+          物流相談はシンプルです
+        </h2>
+
+      </div>
+
+
+      <div class="flow-grid">
+
+        <div class="flow-item">
+          <div class="flow-step">1</div>
+          <h3>無料相談</h3>
+          <p>
+            物量・商品・エリア・現在の課題などをお知らせください。
+          </p>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-step">2</div>
+          <h3>内容確認</h3>
+          <p>
+            株式会社GAMIが一次窓口として内容を確認します。
+          </p>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-step">3</div>
+          <h3>案件振り分け</h3>
+          <p>
+            大阪・福岡・神戸など案件条件から対応会社を検討します。
+          </p>
+        </div>
+
+        <div class="flow-item">
+          <div class="flow-step">4</div>
+          <h3>ご提案</h3>
+          <p>
+            案件に適した物流体制・物流会社をご案内します。
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="consult" id="contact">
+
+    <div class="container consult-box">
+
+      <div>
+
+        <div class="section-kicker">
+          FREE CONSULTATION
+        </div>
+
+        <h2 class="section-title">
+          西日本の物流で困ったら、<br>
+          まずご相談ください。
+        </h2>
+
+        <p class="section-desc">
+          大阪・福岡・神戸を中心に、
+          小ロットから大型物流まで。
+          「これ頼める？」
+          という段階からご相談いただけます。
+        </p>
+
+        <div class="consult-points">
+          <div class="consult-point">
+            ✓ 相談・問い合わせ無料
+          </div>
+
+          <div class="consult-point">
+            ✓ 物流会社が決まっていなくてもOK
+          </div>
+
+          <div class="consult-point">
+            ✓ GAMIが一次窓口として対応
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="form-card">
+
+        <form id="logisticsForm">
+
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="company">
+                会社名
+              </label>
+
+              <input
+                id="company"
+                name="company"
+                type="text"
+                placeholder="株式会社〇〇"
+                required
+              >
+            </div>
+
+
+            <div class="field">
+              <label for="name">
+                ご担当者名
+              </label>
+
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="山田 太郎"
+                required
+              >
+            </div>
+
+
+            <div class="field">
+              <label for="email">
+                メールアドレス
+              </label>
+
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="info@example.com"
+                required
+              >
+            </div>
+
+
+            <div class="field">
+              <label for="area">
+                希望エリア
+              </label>
+
+              <select
+                id="area"
+                name="area"
+              >
+                <option value="おまかせ">
+                  おまかせ
+                </option>
+
+                <option value="大阪">
+                  大阪
+                </option>
+
+                <option value="福岡">
+                  福岡
+                </option>
+
+                <option value="神戸">
+                  神戸
+                </option>
+
+                <option value="その他">
+                  その他
+                </option>
+              </select>
+            </div>
+
+
+            <div class="field full">
+              <label for="partner">
+                ご相談したい物流会社
+              </label>
+
+              <select
+                id="partner"
+                name="partner"
+              >
+                <option value="最適な会社を提案してほしい">
+                  最適な会社を提案してほしい
+                </option>
+
+                <option value="株式会社GAMI">
+                  株式会社GAMI
+                </option>
+
+                <option value="株式会社マックスエクスプレス">
+                  株式会社マックスエクスプレス
+                </option>
+
+                <option value="株式会社エスグロー">
+                  株式会社エスグロー
+                </option>
+              </select>
+            </div>
+
+
+            <div class="field full">
+              <label for="message">
+                ご相談内容
+              </label>
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="例：月間500件程度のEC発送を外注したい。商品は美容商材で、検品とセット組みもお願いしたい。"
+                required
+              ></textarea>
+            </div>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="submit-btn"
+          >
+            無料で物流相談する
+          </button>
+
+          <p class="form-note">
+            ※現在はフォーム表示のテスト段階です。
+            次の工程で株式会社GAMIへの送信機能を接続します。
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="operator">
+
+    <div class="container operator-box">
+
+      <div>
+        <div class="operator-label">
+          SITE OPERATOR / CONTACT
+        </div>
+
+        <div class="operator-name">
+          株式会社GAMI
+        </div>
+      </div>
+
+      <p class="operator-text">
+        西日本ロジNAVIの物流相談は株式会社GAMIが一次窓口として受け付け、
+        ご相談内容・地域・物量・必要な物流機能などを確認したうえで、
+        対応可能な物流会社をご案内します。
+      </p>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-inner">
+
+    <div class="footer-logo">
+      西日本ロジNAVI
+    </div>
+
+    <div>
+      © 2026 Nishinihon Logi NAVI.
+    </div>
+
+  </div>
+
+</footer>
+
+
+<div class="mobile-cta">
+  <a href="#contact">
+    無料で物流相談する
+  </a>
+</div>
+
+
+<script>
+
+  const partnerLinks =
+    document.querySelectorAll("[data-company]");
+
+  partnerLinks.forEach(link => {
+
+    link.addEventListener("click", () => {
+
+      const company =
+        link.dataset.company;
+
+      const partner =
+        document.getElementById("partner");
+
+      partner.value = company;
+
+    });
+
+  });
+
+
+  const form =
+    document.getElementById("logisticsForm");
+
+
+  form.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    alert(
+      "フォーム送信機能は次の工程で株式会社GAMIへの送信に接続します。"
+    );
+
+  });
+
+</script>
+
+</body>
+</html>
