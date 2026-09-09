@@ -1630,16 +1630,68 @@
 
 
   document
-    .getElementById("contactForm")
-    .addEventListener("submit", function(e) {
+  .getElementById("contactForm")
+  .addEventListener("submit", async function(e) {
 
-      e.preventDefault();
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const button = form.querySelector(".submit-btn");
+
+    const formData = new FormData(form);
+
+    const data = {
+      company: formData.get("company"),
+      name: formData.get("name"),
+      email: formData.get("email"),
+      tel: formData.get("tel"),
+      target: formData.get("target"),
+      message: formData.get("message")
+    };
+
+    const originalText = button.textContent;
+
+    button.disabled = true;
+    button.textContent = "送信中...";
+
+    try {
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "送信に失敗しました。");
+      }
 
       alert(
-        "フォームの画面は完成しています。次の工程で株式会社GAMIへ実際に届くよう接続します。"
+        "お問い合わせありがとうございます。\n内容を確認後、GAMIよりご連絡いたします。"
       );
 
-    });
+      form.reset();
+
+    } catch (error) {
+
+      console.error(error);
+
+      alert(
+        "送信に失敗しました。\n時間をおいて再度お試しください。"
+      );
+
+    } finally {
+
+      button.disabled = false;
+      button.textContent = originalText;
+
+    }
+
+  });
 
 </script>
 
