@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://nishinihon-logi.jp/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/logistics-comparison.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/amazon-fba-logistics.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/ec-logistics.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/osaka-logistics.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/fukuoka-logistics.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/kobe-logistics.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nishinihon-logi.jp/privacy.html</loc>
+  </url>
+
 </urlset>
