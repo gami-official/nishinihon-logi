@@ -2,19 +2,25 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-  <title>西日本ロジNAVI｜全国発送対応・3PL・EC物流・発送代行・WMS</title>
+  <title>西日本ロジNAVI｜物流会社比較・3PL・EC物流・発送代行・全国発送</title>
 
-  <meta name="description" content="大阪・福岡・神戸の物流ネットワーク「西日本ロジNAVI」。全国発送対応。各社WMSを活用し、3PL、EC物流、発送代行、倉庫保管、在庫管理、検品・流通加工、EC支援まで幅広くご相談いただけます。">
+  <meta
+    name="description"
+    content="今の物流会社、本当にそのままでいいですか？大阪・福岡・神戸の物流ネットワーク、西日本ロジNAVI。Amazon FBAや楽天・Yahoo!ショッピングを含むEC物流の見直し、物流会社比較、倉庫移管、新規EC物流、3PL、発送代行、WMS、全国発送まで無料相談。"
+  >
 
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="canonical" href="https://nishinihon-logi.jp/">
 
-  <meta property="og:title" content="西日本ロジNAVI｜西日本3拠点から全国発送">
-  <meta property="og:description" content="大阪・福岡・神戸の物流ネットワーク。全国発送対応。3PL・EC物流・発送代行・WMS・倉庫保管・流通加工まで物流会社選びから相談できます。">
+  <meta property="og:title" content="西日本ロジNAVI｜今の物流と比較・見直し">
+  <meta
+    property="og:description"
+    content="物流会社の比較・乗り換えから、新規EC物流まで。大阪・福岡・神戸の3社ネットワークから物流体制を相談できます。全国発送対応。"
+  >
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nishinihon-logi.jp/">
   <meta property="og:site_name" content="西日本ロジNAVI">
@@ -22,1201 +28,1336 @@
 
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "西日本ロジNAVI",
-    "url": "https://nishinihon-logi.jp/",
-    "description": "大阪・福岡・神戸の物流ネットワーク。全国発送対応。3PL、EC物流、発送代行、WMS、倉庫保管、在庫管理、検品・流通加工、EC支援まで相談できます。",
-    "inLanguage": "ja"
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"西日本ロジNAVI",
+    "url":"https://nishinihon-logi.jp/",
+    "description":"大阪・福岡・神戸の物流会社3社から物流体制を相談できる物流相談サイト。物流会社比較、倉庫移管、新規EC物流、3PL、発送代行、WMS、全国発送などに対応。",
+    "inLanguage":"ja"
   }
   </script>
 
   <style>
-    :root {
-      --blue: #1268f3;
-      --blue-dark: #0755ce;
-      --blue-light: #edf5ff;
-      --navy: #10213b;
-      --text: #34445b;
-      --muted: #6c7a8e;
-      --line: #dde6f0;
-      --soft: #f6f9fd;
-      --white: #ffffff;
-      --green: #11a66a;
-      --shadow: 0 18px 55px rgba(30, 60, 100, .08);
+    :root{
+      --blue:#1267ef;
+      --blue2:#0654cb;
+      --deep:#0c203b;
+      --text:#33475f;
+      --muted:#708095;
+      --line:#dde7f1;
+      --soft:#f5f9fd;
+      --softblue:#edf5ff;
+      --white:#fff;
+      --green:#0aa56b;
+      --orange:#f68a23;
+      --shadow:0 18px 50px rgba(21,55,95,.08);
+      --blue-shadow:0 16px 34px rgba(18,103,239,.22);
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
     }
 
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 85px;
+    html{
+      scroll-behavior:smooth;
+      scroll-padding-top:80px;
     }
 
-    body {
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        "Noto Sans JP",
-        "Hiragino Kaku Gothic ProN",
-        "Yu Gothic",
-        sans-serif;
-      background: var(--white);
-      color: var(--navy);
-      line-height: 1.75;
-      overflow-x: hidden;
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+      background:#fff;
+      color:var(--deep);
+      line-height:1.75;
+      overflow-x:hidden;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
+    a{
+      color:inherit;
+      text-decoration:none;
     }
 
-    button,
-    input,
-    select,
-    textarea {
-      font: inherit;
+    button,input,select,textarea{
+      font:inherit;
     }
 
-    button {
-      cursor: pointer;
+    button{
+      cursor:pointer;
     }
 
-    .container {
-      width: min(1180px, calc(100% - 48px));
-      margin: 0 auto;
+    .container{
+      width:min(1180px,calc(100% - 48px));
+      margin:0 auto;
+    }
+
+    .section{
+      padding:90px 0;
+    }
+
+    .label{
+      color:var(--blue);
+      font-size:10px;
+      font-weight:950;
+      letter-spacing:.16em;
+      margin-bottom:12px;
+    }
+
+    .title{
+      font-size:clamp(32px,4vw,56px);
+      line-height:1.15;
+      letter-spacing:-.045em;
+      font-weight:950;
+      word-break:keep-all;
+    }
+
+    .lead{
+      max-width:780px;
+      margin-top:18px;
+      color:var(--muted);
+      font-size:15px;
     }
 
     /* HEADER */
 
-    .header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1000;
-      background: rgba(255,255,255,.94);
-      backdrop-filter: blur(15px);
-      border-bottom: 1px solid rgba(221,230,240,.9);
+    header{
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      z-index:1000;
+      background:rgba(255,255,255,.94);
+      border-bottom:1px solid rgba(220,230,240,.95);
+      backdrop-filter:blur(16px);
     }
 
-    .header-inner {
-      min-height: 72px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
+    .header-inner{
+      min-height:70px;
+      display:flex;
+      align-items:center;
+      gap:24px;
     }
 
-    .brand {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.1;
+    .logo{
+      display:flex;
+      flex-direction:column;
+      line-height:1.05;
+      flex-shrink:0;
     }
 
-    .brand-main {
-      font-size: 20px;
-      font-weight: 950;
-      letter-spacing: .02em;
+    .logo strong{
+      font-size:20px;
+      font-weight:950;
     }
 
-    .brand-sub {
-      margin-top: 5px;
-      font-size: 9px;
-      color: #7b899a;
-      letter-spacing: .18em;
+    .logo span{
+      margin-top:5px;
+      font-size:8px;
+      letter-spacing:.17em;
+      color:#8290a0;
     }
 
-    .header-nav {
-      display: flex;
-      align-items: center;
-      gap: 25px;
-      margin-left: auto;
+    nav{
+      margin-left:auto;
+      display:flex;
+      align-items:center;
+      gap:22px;
     }
 
-    .header-nav a {
-      font-size: 12px;
-      font-weight: 850;
-      color: #536279;
+    nav a{
+      font-size:12px;
+      font-weight:850;
+      color:#586a80;
     }
 
-    .header-cta {
-      min-height: 44px;
-      padding: 0 21px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 999px;
-      background: var(--blue);
-      color: #fff;
-      font-size: 13px;
-      font-weight: 950;
-      box-shadow: 0 9px 25px rgba(18,104,243,.22);
+    .head-cta{
+      min-height:43px;
+      padding:0 20px;
+      border-radius:999px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:var(--blue);
+      color:#fff;
+      font-size:12px;
+      font-weight:950;
+      box-shadow:var(--blue-shadow);
     }
 
     /* HERO */
 
-    .hero {
-      position: relative;
-      overflow: hidden;
-      padding: 142px 0 82px;
+    .hero{
+      padding:135px 0 72px;
+      position:relative;
+      overflow:hidden;
       background:
-        radial-gradient(circle at 88% 18%, rgba(18,104,243,.13), transparent 31%),
-        radial-gradient(circle at 8% 80%, rgba(52,192,255,.08), transparent 30%),
-        linear-gradient(180deg,#f7fbff 0%,#fff 100%);
+        radial-gradient(circle at 88% 10%,rgba(18,103,239,.16),transparent 30%),
+        radial-gradient(circle at 0% 90%,rgba(51,190,255,.08),transparent 30%),
+        linear-gradient(180deg,#f7fbff,#fff);
     }
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
+    .hero:after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
       background-image:
-        linear-gradient(rgba(50,100,160,.035) 1px,transparent 1px),
-        linear-gradient(90deg,rgba(50,100,160,.035) 1px,transparent 1px);
-      background-size: 58px 58px;
-      mask-image: linear-gradient(to bottom,#000,transparent);
+        linear-gradient(rgba(40,90,150,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(40,90,150,.035) 1px,transparent 1px);
+      background-size:58px 58px;
+      mask-image:linear-gradient(to bottom,#000,transparent);
     }
 
-    .hero-content {
-      position: relative;
-      z-index: 2;
+    .hero .container{
+      position:relative;
+      z-index:2;
     }
 
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      padding: 8px 14px;
-      margin-bottom: 22px;
-      border: 1px solid #cbdfff;
-      border-radius: 999px;
-      background: #f1f7ff;
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 950;
-      letter-spacing: .14em;
+    .hero-badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 13px;
+      border:1px solid #c8ddfb;
+      border-radius:999px;
+      background:#eff6ff;
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+      letter-spacing:.1em;
     }
 
-    .eyebrow-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--blue);
+    .hero-badge:before{
+      content:"";
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background:var(--blue);
     }
 
-    .hero-title {
-      max-width: 970px;
-      font-size: clamp(48px,6.4vw,90px);
-      line-height: 1.04;
-      font-weight: 950;
-      letter-spacing: -.055em;
-      word-break: keep-all;
+    h1{
+      max-width:1000px;
+      margin-top:20px;
+      font-size:clamp(47px,6vw,84px);
+      line-height:1.04;
+      letter-spacing:-.055em;
+      font-weight:950;
+      word-break:keep-all;
     }
 
-    .hero-title .blue {
-      color: var(--blue);
+    h1 .blue{
+      color:var(--blue);
     }
 
-    .hero-lead {
-      max-width: 760px;
-      margin-top: 28px;
-      color: #58677c;
-      font-size: clamp(17px,1.6vw,20px);
+    .hero-copy{
+      max-width:820px;
+      margin-top:27px;
+      color:#576a81;
+      font-size:clamp(16px,1.5vw,20px);
     }
 
-    .hero-lead strong {
-      color: #182a44;
+    .hero-copy strong{
+      color:#17304f;
     }
 
-    .nationwide {
-      margin-top: 25px;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 12px 17px;
-      border-radius: 10px;
-      background: #fff;
-      border: 1px solid #d8e5f4;
-      box-shadow: 0 9px 28px rgba(30,60,90,.06);
-      color: #243b59;
-      font-size: 13px;
-      font-weight: 900;
+    .hero-points{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:23px;
     }
 
-    .nationwide-mark {
-      color: var(--green);
-      font-weight: 950;
+    .hero-point{
+      padding:8px 11px;
+      border:1px solid #d6e4f3;
+      border-radius:8px;
+      background:#fff;
+      color:#39516e;
+      font-size:10px;
+      font-weight:900;
     }
 
-    .hero-services {
-      margin-top: 24px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+    .hero-point:before{
+      content:"✓ ";
+      color:var(--green);
     }
 
-    .service-pill {
-      padding: 7px 11px;
-      border: 1px solid #d9e4ef;
-      border-radius: 999px;
-      background: #fff;
-      color: #3c506c;
-      font-size: 11px;
-      font-weight: 850;
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:33px;
     }
 
-    .hero-actions {
-      margin-top: 35px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 11px;
+    .btn{
+      min-height:58px;
+      padding:0 26px;
+      border-radius:10px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-size:13px;
+      font-weight:950;
+      transition:.2s;
     }
 
-    .btn-primary,
-    .btn-secondary {
-      min-height: 57px;
-      padding: 0 26px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 11px;
-      font-size: 14px;
-      font-weight: 950;
-      transition: .2s ease;
+    .btn-main{
+      color:#fff;
+      background:var(--blue);
+      box-shadow:var(--blue-shadow);
     }
 
-    .btn-primary {
-      background: var(--blue);
-      color: #fff;
-      box-shadow: 0 12px 30px rgba(18,104,243,.22);
+    .btn-main:hover{
+      transform:translateY(-2px);
+      background:var(--blue2);
     }
 
-    .btn-primary:hover {
-      background: var(--blue-dark);
-      transform: translateY(-2px);
+    .btn-sub{
+      background:#fff;
+      border:1px solid #d7e2ed;
+      color:#2d4663;
     }
 
-    .btn-secondary {
-      border: 1px solid #d7e1ec;
-      background: #fff;
-      color: #263b57;
+    .hero-note{
+      margin-top:11px;
+      color:#7b899a;
+      font-size:10px;
     }
 
-    .hero-note {
-      margin-top: 12px;
-      color: #7a8798;
-      font-size: 11px;
+    .hero-trust{
+      margin-top:47px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      border:1px solid var(--line);
+      border-radius:17px;
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
     }
 
-    /* QUICK TRUST */
-
-    .trustbar {
-      position: relative;
-      z-index: 5;
-      margin-top: 55px;
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      overflow: hidden;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      box-shadow: var(--shadow);
+    .trust{
+      padding:19px;
+      border-right:1px solid var(--line);
     }
 
-    .trust-item {
-      padding: 22px 19px;
-      border-right: 1px solid var(--line);
+    .trust:last-child{
+      border-right:0;
     }
 
-    .trust-item:last-child {
-      border-right: 0;
+    .trust small{
+      display:block;
+      color:var(--blue);
+      font-size:8px;
+      font-weight:950;
+      letter-spacing:.13em;
     }
 
-    .trust-item small {
-      display: block;
-      color: var(--blue);
-      font-size: 9px;
-      font-weight: 950;
-      letter-spacing: .12em;
+    .trust strong{
+      display:block;
+      margin-top:4px;
+      font-size:15px;
     }
 
-    .trust-item strong {
-      display: block;
-      margin-top: 4px;
-      font-size: 16px;
-      line-height: 1.4;
+    .trust span{
+      display:block;
+      margin-top:3px;
+      color:#7d8b9c;
+      font-size:10px;
     }
 
-    .trust-item span {
-      display: block;
-      margin-top: 3px;
-      color: #788699;
-      font-size: 11px;
+    /* PROBLEM */
+
+    .problem{
+      background:#fff;
     }
 
-    /* COMMON */
-
-    section {
-      padding: 92px 0;
+    .problem-head{
+      text-align:center;
     }
 
-    .section-label {
-      margin-bottom: 13px;
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 950;
-      letter-spacing: .17em;
+    .problem-head .lead{
+      margin-left:auto;
+      margin-right:auto;
     }
 
-    .section-title {
-      max-width: 900px;
-      font-size: clamp(33px,4.2vw,58px);
-      line-height: 1.16;
-      letter-spacing: -.045em;
-      font-weight: 950;
-      word-break: keep-all;
+    .problem-grid{
+      margin-top:40px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:12px;
     }
 
-    .section-description {
-      max-width: 790px;
-      margin-top: 20px;
-      color: #66758a;
-      font-size: 15px;
+    .problem-card{
+      padding:21px 18px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#f8fafc;
     }
 
-    /* STRENGTHS */
-
-    .strengths {
-      background: #fff;
+    .problem-card .icon{
+      width:37px;
+      height:37px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:9px;
+      background:#e9f3ff;
+      color:var(--blue);
+      font-weight:950;
     }
 
-    .strength-grid {
-      margin-top: 43px;
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      gap: 17px;
+    .problem-card h3{
+      margin-top:13px;
+      font-size:15px;
+      line-height:1.45;
     }
 
-    .strength-card {
-      padding: 28px 25px;
-      border: 1px solid var(--line);
-      border-radius: 17px;
-      background: var(--soft);
+    .problem-card p{
+      margin-top:7px;
+      color:#738196;
+      font-size:11px;
     }
 
-    .strength-icon {
-      width: 42px;
-      height: 42px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 11px;
-      background: #e7f1ff;
-      color: var(--blue);
-      font-weight: 950;
+    .answer{
+      max-width:900px;
+      margin:34px auto 0;
+      padding:27px;
+      text-align:center;
+      border-radius:16px;
+      background:linear-gradient(135deg,var(--blue),var(--blue2));
+      color:#fff;
+      box-shadow:var(--blue-shadow);
     }
 
-    .strength-card h3 {
-      margin-top: 17px;
-      font-size: 20px;
-      line-height: 1.4;
+    .answer small{
+      font-size:9px;
+      letter-spacing:.15em;
+      color:rgba(255,255,255,.76);
+      font-weight:900;
     }
 
-    .strength-card p {
-      margin-top: 11px;
-      color: #6a798d;
-      font-size: 13px;
+    .answer h3{
+      margin-top:7px;
+      font-size:clamp(23px,3vw,37px);
+      line-height:1.35;
+    }
+
+    .answer p{
+      max-width:680px;
+      margin:10px auto 0;
+      color:rgba(255,255,255,.88);
+      font-size:12px;
+    }
+
+    /* SWITCH */
+
+    .switch{
+      background:#f5f8fc;
+    }
+
+    .switch-grid{
+      margin-top:40px;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:15px;
+    }
+
+    .switch-card{
+      padding:27px;
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:#fff;
+      box-shadow:0 10px 30px rgba(30,60,90,.035);
+    }
+
+    .switch-card .num{
+      color:var(--blue);
+      font-size:10px;
+      font-weight:950;
+      letter-spacing:.12em;
+    }
+
+    .switch-card h3{
+      margin-top:8px;
+      font-size:21px;
+      line-height:1.4;
+    }
+
+    .switch-card p{
+      margin-top:9px;
+      color:#6d7d91;
+      font-size:12px;
+    }
+
+    .switch-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+      margin-top:15px;
+    }
+
+    .switch-tags span{
+      padding:5px 8px;
+      border-radius:5px;
+      background:#edf5ff;
+      color:#416086;
+      font-size:9px;
+      font-weight:850;
+    }
+
+    .compare-box{
+      margin-top:30px;
+      padding:28px;
+      display:grid;
+      grid-template-columns:1fr auto;
+      align-items:center;
+      gap:30px;
+      border-radius:16px;
+      background:#10233f;
+      color:#fff;
+    }
+
+    .compare-box h3{
+      font-size:24px;
+    }
+
+    .compare-box p{
+      margin-top:8px;
+      max-width:720px;
+      color:#c4d1df;
+      font-size:12px;
+    }
+
+    /* NETWORK */
+
+    .network{
+      background:#fff;
+    }
+
+    .network-grid{
+      margin-top:40px;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:15px;
+    }
+
+    .network-card{
+      padding:25px 22px;
+      border:1px solid var(--line);
+      border-radius:15px;
+    }
+
+    .network-card strong{
+      display:block;
+      color:var(--blue);
+      font-size:10px;
+      letter-spacing:.12em;
+    }
+
+    .network-card h3{
+      margin-top:8px;
+      font-size:19px;
+    }
+
+    .network-card p{
+      margin-top:8px;
+      color:#6d7d91;
+      font-size:12px;
     }
 
     /* WMS */
 
-    .wms-section {
-      background: #0f2441;
-      color: #fff;
+    .wms{
+      background:#10233f;
+      color:#fff;
     }
 
-    .wms-layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 65px;
-      align-items: center;
+    .wms-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:60px;
+      align-items:center;
     }
 
-    .wms-section .section-label {
-      color: #7eb3ff;
+    .wms .label{
+      color:#7db2ff;
     }
 
-    .wms-section .section-title {
-      color: #fff;
+    .wms .title{
+      color:#fff;
     }
 
-    .wms-copy {
-      margin-top: 20px;
-      color: #c3d0e0;
-      font-size: 15px;
+    .wms-copy{
+      margin-top:18px;
+      color:#c4d1df;
+      font-size:14px;
     }
 
-    .wms-flow {
-      display: grid;
-      gap: 10px;
+    .wms-flow{
+      display:grid;
+      gap:9px;
     }
 
-    .wms-step {
-      padding: 17px 18px;
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      border: 1px solid rgba(255,255,255,.13);
-      border-radius: 11px;
-      background: rgba(255,255,255,.055);
+    .wms-row{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:15px 16px;
+      border:1px solid rgba(255,255,255,.13);
+      border-radius:9px;
+      background:rgba(255,255,255,.05);
     }
 
-    .wms-step span {
-      width: 28px;
-      height: 28px;
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      background: #fff;
-      color: #10213b;
-      font-size: 11px;
-      font-weight: 950;
+    .wms-row span{
+      width:29px;
+      height:29px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-shrink:0;
+      color:#10233f;
+      background:#fff;
+      font-size:10px;
+      font-weight:950;
     }
 
-    .wms-step strong {
-      font-size: 13px;
+    .wms-row strong{
+      font-size:12px;
     }
 
     /* COMPANIES */
 
-    .companies {
-      background: #f5f8fc;
+    .companies{
+      background:#f5f8fc;
     }
 
-    .company-grid {
-      margin-top: 48px;
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      gap: 17px;
+    .companies-grid{
+      margin-top:42px;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:15px;
     }
 
-    .company-card {
-      padding: 29px;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #dfe7f1;
-      border-radius: 19px;
-      background: #fff;
-      box-shadow: 0 13px 35px rgba(30,60,90,.045);
+    .company{
+      padding:27px;
+      display:flex;
+      flex-direction:column;
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:#fff;
+      box-shadow:0 12px 35px rgba(30,60,90,.04);
     }
 
-    .company-city {
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 950;
-      letter-spacing: .15em;
+    .company .city{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+      letter-spacing:.15em;
     }
 
-    .company-name {
-      margin-top: 11px;
-      font-size: 23px;
-      line-height: 1.3;
-      font-weight: 950;
+    .company h3{
+      margin-top:9px;
+      font-size:21px;
+      line-height:1.35;
     }
 
-    .company-catch {
-      margin-top: 19px;
-      color: #243b58;
-      font-size: 19px;
-      line-height: 1.45;
-      font-weight: 900;
+    .company .catch{
+      margin-top:15px;
+      color:#28435f;
+      font-size:17px;
+      line-height:1.5;
+      font-weight:900;
     }
 
-    .company-text {
-      margin-top: 15px;
-      color: #69798e;
-      font-size: 13px;
+    .company p{
+      margin-top:11px;
+      color:#6c7b8f;
+      font-size:11px;
     }
 
-    .company-tags {
-      margin-top: 21px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
+    .company-list{
+      margin-top:18px;
+      display:grid;
+      gap:6px;
     }
 
-    .company-tag {
-      padding: 5px 8px;
-      border-radius: 6px;
-      border: 1px solid #dbe7f3;
-      background: #f3f7fc;
-      color: #405673;
-      font-size: 10px;
-      font-weight: 850;
+    .company-list div{
+      display:flex;
+      gap:7px;
+      color:#47596f;
+      font-size:11px;
     }
 
-    .company-points {
-      margin-top: 20px;
-      display: grid;
-      gap: 8px;
+    .company-list div:before{
+      content:"✓";
+      color:var(--blue);
+      font-weight:950;
     }
 
-    .company-point {
-      display: flex;
-      gap: 8px;
-      color: #43546b;
-      font-size: 12px;
+    .company-actions{
+      margin-top:auto;
+      padding-top:22px;
+      display:grid;
+      gap:7px;
     }
 
-    .company-point::before {
-      content: "✓";
-      color: var(--blue);
-      font-weight: 950;
+    .company-consult{
+      min-height:48px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:8px;
+      background:var(--blue);
+      color:#fff;
+      font-size:11px;
+      font-weight:950;
     }
 
-    .company-actions {
-      margin-top: auto;
-      padding-top: 26px;
-      display: grid;
-      gap: 8px;
-    }
-
-    .company-consult {
-      min-height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 9px;
-      background: var(--blue);
-      color: #fff;
-      font-size: 12px;
-      font-weight: 950;
-    }
-
-    .company-official {
-      min-height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid #dce5ef;
-      border-radius: 9px;
-      color: #617086;
-      font-size: 11px;
-      font-weight: 850;
+    .company-web{
+      min-height:41px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border:1px solid var(--line);
+      border-radius:8px;
+      color:#69798d;
+      font-size:10px;
+      font-weight:850;
     }
 
     /* SERVICES */
 
-    .services {
-      background: #fff;
+    .services{
+      background:#fff;
     }
 
-    .service-grid {
-      margin-top: 42px;
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      gap: 13px;
+    .services-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:11px;
     }
 
-    .service-card {
-      padding: 23px 20px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: #fff;
+    .service{
+      padding:20px 17px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
     }
 
-    .service-card h3 {
-      font-size: 17px;
+    .service h3{
+      font-size:16px;
     }
 
-    .service-card p {
-      margin-top: 8px;
-      color: #6c7b8f;
-      font-size: 12px;
+    .service p{
+      margin-top:6px;
+      color:#748296;
+      font-size:10px;
     }
 
-    /* CONSULT */
+    /* FLOW */
 
-    .consult-section {
-      background: #edf5ff;
+    .flow{
+      background:#f5f8fc;
     }
 
-    .consult-layout {
-      display: grid;
-      grid-template-columns: 1.05fr .95fr;
-      gap: 60px;
-      align-items: center;
+    .flow-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:11px;
     }
 
-    .consult-big {
-      font-size: clamp(35px,4.8vw,64px);
-      line-height: 1.12;
-      letter-spacing: -.045em;
-      font-weight: 950;
-      word-break: keep-all;
+    .flow-card{
+      padding:22px 18px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
     }
 
-    .consult-copy {
-      margin-top: 21px;
-      color: #607087;
-      font-size: 15px;
+    .flow-card small{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
     }
 
-    .consult-note {
-      margin-top: 15px;
-      color: #7b899a;
-      font-size: 11px;
+    .flow-card h3{
+      margin-top:7px;
+      font-size:16px;
     }
 
-    .consult-list {
-      display: grid;
-      gap: 9px;
+    .flow-card p{
+      margin-top:6px;
+      color:#748296;
+      font-size:10px;
     }
 
-    .consult-item {
-      padding: 15px 16px;
-      border: 1px solid #d8e5f2;
-      border-radius: 10px;
-      background: #fff;
-      color: #344a66;
-      font-size: 12px;
-      font-weight: 900;
+    /* CTA */
+
+    .big-cta{
+      background:var(--softblue);
+    }
+
+    .big-cta-inner{
+      display:grid;
+      grid-template-columns:1fr .9fr;
+      gap:50px;
+      align-items:center;
+    }
+
+    .big-cta h2{
+      font-size:clamp(34px,4.6vw,61px);
+      line-height:1.12;
+      letter-spacing:-.045em;
+      font-weight:950;
+      word-break:keep-all;
+    }
+
+    .big-cta p{
+      margin-top:18px;
+      color:#63748a;
+      font-size:14px;
+    }
+
+    .cta-list{
+      display:grid;
+      gap:8px;
+    }
+
+    .cta-list div{
+      padding:14px 15px;
+      border:1px solid #d4e3f3;
+      border-radius:9px;
+      background:#fff;
+      color:#3e526c;
+      font-size:11px;
+      font-weight:900;
     }
 
     /* CONTACT */
 
-    .contact {
-      background: #fff;
+    .contact{
+      background:#fff;
     }
 
-    .contact-layout {
-      display: grid;
-      grid-template-columns: .82fr 1.18fr;
-      gap: 60px;
-      align-items: start;
+    .contact-grid{
+      display:grid;
+      grid-template-columns:.82fr 1.18fr;
+      gap:55px;
+      align-items:start;
     }
 
-    .contact-side {
-      position: sticky;
-      top: 105px;
+    .contact-side{
+      position:sticky;
+      top:100px;
     }
 
-    .contact-info {
-      margin-top: 23px;
-      padding: 17px;
-      border: 1px solid var(--line);
-      border-radius: 11px;
-      background: var(--soft);
-      color: #65758a;
-      font-size: 12px;
+    .contact-note{
+      margin-top:20px;
+      padding:16px;
+      border:1px solid var(--line);
+      border-radius:10px;
+      background:#f7f9fc;
+      color:#6c7c90;
+      font-size:11px;
     }
 
-    .contact-info strong {
-      color: #263b56;
+    .contact-note strong{
+      color:#2a405c;
     }
 
-    .contact-form {
-      padding: 30px;
-      border: 1px solid var(--line);
-      border-radius: 19px;
-      background: #f8fbff;
-      box-shadow: var(--shadow);
+    form{
+      padding:29px;
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:#f8fbff;
+      box-shadow:var(--shadow);
     }
 
-    .form-grid {
-      display: grid;
-      gap: 16px;
+    .form-grid{
+      display:grid;
+      gap:15px;
     }
 
-    .form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
+    .two{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:13px;
     }
 
-    .field label {
-      display: block;
-      margin-bottom: 7px;
-      color: #31435d;
-      font-size: 12px;
-      font-weight: 900;
+    label.field-label{
+      display:block;
+      margin-bottom:6px;
+      color:#334760;
+      font-size:11px;
+      font-weight:900;
     }
 
-    .required {
-      margin-left: 4px;
-      color: var(--blue);
-      font-size: 9px;
+    .req{
+      color:var(--blue);
+      margin-left:4px;
+      font-size:9px;
     }
 
-    .field input,
-    .field select,
-    .field textarea {
-      width: 100%;
-      padding: 13px 14px;
-      border: 1px solid #d5dfeb;
-      border-radius: 9px;
-      outline: none;
-      background: #fff;
-      color: #223650;
-      font-size: 14px;
+    input,select,textarea{
+      width:100%;
+      padding:12px 13px;
+      outline:none;
+      border:1px solid #d5dfeb;
+      border-radius:8px;
+      background:#fff;
+      color:#243a55;
+      font-size:13px;
     }
 
-    .field input:focus,
-    .field select:focus,
-    .field textarea:focus {
-      border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(18,104,243,.08);
+    input:focus,select:focus,textarea:focus{
+      border-color:var(--blue);
+      box-shadow:0 0 0 3px rgba(18,103,239,.08);
     }
 
-    .field textarea {
-      min-height: 145px;
-      resize: vertical;
+    textarea{
+      min-height:145px;
+      resize:vertical;
     }
 
-    .privacy-label {
-      display: flex;
-      align-items: flex-start;
-      gap: 9px;
-      color: #69788c;
-      font-size: 11px;
+    .privacy{
+      display:flex;
+      align-items:flex-start;
+      gap:8px;
+      color:#718095;
+      font-size:10px;
     }
 
-    .privacy-label input {
-      width: 17px;
-      height: 17px;
-      margin-top: 2px;
-      flex-shrink: 0;
+    .privacy input{
+      width:16px;
+      height:16px;
+      margin-top:2px;
+      flex-shrink:0;
     }
 
-    .privacy-label a {
-      color: var(--blue);
-      text-decoration: underline;
+    .privacy a{
+      color:var(--blue);
+      text-decoration:underline;
     }
 
-    .submit-btn {
-      width: 100%;
-      min-height: 60px;
-      border: 0;
-      border-radius: 10px;
-      background: var(--blue);
-      color: #fff;
-      font-size: 14px;
-      font-weight: 950;
-      box-shadow: 0 12px 30px rgba(18,104,243,.22);
+    .submit{
+      min-height:59px;
+      width:100%;
+      border:0;
+      border-radius:9px;
+      background:var(--blue);
+      color:#fff;
+      font-size:13px;
+      font-weight:950;
+      box-shadow:var(--blue-shadow);
     }
 
-    .submit-btn:disabled {
-      opacity: .55;
-      cursor: wait;
+    .submit:disabled{
+      opacity:.55;
     }
 
-    .form-bottom-note {
-      text-align: center;
-      color: #8390a0;
-      font-size: 10px;
+    .form-note{
+      text-align:center;
+      color:#8592a2;
+      font-size:9px;
     }
 
     /* FOOTER */
 
-    footer {
-      padding: 42px 0 92px;
-      border-top: 1px solid #e3e9f0;
-      background: #f7f9fc;
-      color: #7b8999;
-      font-size: 10px;
+    footer{
+      padding:40px 0 90px;
+      background:#f6f8fb;
+      border-top:1px solid var(--line);
+      color:#7c899a;
+      font-size:10px;
     }
 
-    .footer-inner {
-      display: flex;
-      justify-content: space-between;
-      gap: 25px;
+    .footer-inner{
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
     }
 
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 17px;
+    .footer-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
     }
 
-    .mobile-fixed {
-      display: none;
+    .mobile-cta{
+      display:none;
     }
 
     /* TABLET */
 
-    @media (max-width: 900px) {
+    @media(max-width:900px){
 
-      .container {
-        width: min(100% - 30px,720px);
+      .container{
+        width:min(100% - 30px,720px);
       }
 
-      .header-inner {
-        min-height: 64px;
+      nav{
+        display:none;
       }
 
-      .header-nav {
-        display: none;
+      .header-inner{
+        min-height:63px;
       }
 
-      .brand-main {
-        font-size: 17px;
+      .logo strong{
+        font-size:17px;
       }
 
-      .brand-sub {
-        display: none;
+      .logo span{
+        display:none;
       }
 
-      .header-cta {
-        min-height: 39px;
-        padding: 0 14px;
-        font-size: 11px;
+      .head-cta{
+        margin-left:auto;
+        min-height:38px;
+        padding:0 14px;
+        font-size:10px;
       }
 
-      .hero {
-        padding: 108px 0 60px;
+      .hero{
+        padding:106px 0 57px;
       }
 
-      .hero-title {
-        font-size: clamp(39px,9vw,57px);
-        line-height: 1.08;
+      h1{
+        font-size:clamp(39px,9vw,57px);
       }
 
-      .hero-lead {
-        font-size: 15px;
+      .hero-copy{
+        font-size:15px;
       }
 
-      .trustbar {
-        grid-template-columns: 1fr 1fr;
+      .hero-trust{
+        grid-template-columns:1fr 1fr;
       }
 
-      .trust-item:nth-child(2) {
-        border-right: 0;
+      .trust:nth-child(2){
+        border-right:0;
       }
 
-      .trust-item:nth-child(-n+2) {
-        border-bottom: 1px solid var(--line);
+      .trust:nth-child(-n+2){
+        border-bottom:1px solid var(--line);
       }
 
-      section {
-        padding: 72px 0;
+      .section{
+        padding:70px 0;
       }
 
-      .section-title {
-        font-size: clamp(29px,7vw,42px);
+      .problem-grid,
+      .services-grid,
+      .flow-grid{
+        grid-template-columns:1fr 1fr;
       }
 
-      .strength-grid,
-      .company-grid {
-        grid-template-columns: 1fr;
+      .switch-grid,
+      .wms-grid,
+      .big-cta-inner,
+      .contact-grid{
+        grid-template-columns:1fr;
       }
 
-      .wms-layout,
-      .consult-layout,
-      .contact-layout {
-        grid-template-columns: 1fr;
-        gap: 38px;
+      .network-grid,
+      .companies-grid{
+        grid-template-columns:1fr;
       }
 
-      .service-grid {
-        grid-template-columns: 1fr 1fr;
+      .compare-box{
+        grid-template-columns:1fr;
       }
 
-      .contact-side {
-        position: static;
+      .contact-side{
+        position:static;
       }
 
-      .mobile-fixed {
-        position: fixed;
-        left: 12px;
-        right: 12px;
-        bottom: 12px;
-        z-index: 999;
-        min-height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 11px;
-        background: var(--blue);
-        color: #fff;
-        font-size: 13px;
-        font-weight: 950;
-        box-shadow: 0 12px 35px rgba(20,50,90,.28);
+      .mobile-cta{
+        position:fixed;
+        left:11px;
+        right:11px;
+        bottom:11px;
+        z-index:999;
+        min-height:54px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:10px;
+        background:var(--blue);
+        color:#fff;
+        box-shadow:0 12px 35px rgba(20,50,90,.28);
+        font-size:12px;
+        font-weight:950;
       }
     }
 
     /* MOBILE */
 
-    @media (max-width: 520px) {
+    @media(max-width:520px){
 
-      .container {
-        width: calc(100% - 28px);
+      .container{
+        width:calc(100% - 28px);
       }
 
-      .brand-main {
-        font-size: 15px;
+      .logo strong{
+        font-size:15px;
       }
 
-      .header-cta {
-        padding: 0 11px;
-        font-size: 10px;
+      .head-cta{
+        padding:0 11px;
+        font-size:9px;
       }
 
-      .hero {
-        padding: 99px 0 52px;
+      .hero{
+        padding:95px 0 49px;
       }
 
-      .eyebrow {
-        margin-bottom: 17px;
-        padding: 7px 11px;
-        font-size: 8px;
+      .hero-badge{
+        font-size:8px;
+        padding:6px 10px;
       }
 
-      .hero-title {
-        font-size: clamp(34px,9.4vw,42px);
-        line-height: 1.11;
-        letter-spacing: -.04em;
+      h1{
+        margin-top:16px;
+        font-size:clamp(33px,9.2vw,41px);
+        line-height:1.1;
+        letter-spacing:-.04em;
       }
 
-      .hero-lead {
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 1.8;
+      .hero-copy{
+        margin-top:19px;
+        font-size:13px;
+        line-height:1.85;
       }
 
-      .nationwide {
-        width: 100%;
-        margin-top: 21px;
-        padding: 11px 13px;
-        font-size: 12px;
+      .hero-points{
+        margin-top:17px;
       }
 
-      .hero-services {
-        margin-top: 19px;
+      .hero-point{
+        font-size:9px;
+        padding:6px 8px;
       }
 
-      .service-pill {
-        padding: 6px 9px;
-        font-size: 9px;
+      .hero-actions{
+        margin-top:24px;
+        display:grid;
       }
 
-      .hero-actions {
-        margin-top: 28px;
-        display: grid;
+      .btn{
+        width:100%;
+        min-height:51px;
+        font-size:11px;
       }
 
-      .btn-primary,
-      .btn-secondary {
-        width: 100%;
-        min-height: 52px;
-        font-size: 12px;
+      .hero-trust{
+        margin-top:34px;
+        grid-template-columns:1fr;
       }
 
-      .trustbar {
-        margin-top: 38px;
-        grid-template-columns: 1fr;
+      .trust{
+        padding:14px;
+        border-right:0;
+        border-bottom:1px solid var(--line);
       }
 
-      .trust-item {
-        padding: 16px 15px;
-        border-right: 0;
-        border-bottom: 1px solid var(--line);
+      .trust:last-child{
+        border-bottom:0;
       }
 
-      .trust-item:last-child {
-        border-bottom: 0;
+      .section{
+        padding:56px 0;
       }
 
-      section {
-        padding: 58px 0;
+      .label{
+        font-size:8px;
       }
 
-      .section-label {
-        font-size: 8px;
+      .title{
+        font-size:27px;
+        line-height:1.25;
       }
 
-      .section-title {
-        font-size: 28px;
-        line-height: 1.25;
-      }
-
-      .section-description,
+      .lead,
       .wms-copy,
-      .consult-copy {
-        font-size: 13px;
-        line-height: 1.85;
+      .big-cta p{
+        font-size:12px;
+        line-height:1.85;
       }
 
-      .strength-grid,
-      .company-grid,
-      .service-grid {
-        margin-top: 31px;
+      .problem-grid,
+      .services-grid,
+      .flow-grid,
+      .two{
+        grid-template-columns:1fr;
       }
 
-      .strength-card {
-        padding: 21px 18px;
+      .problem-grid,
+      .switch-grid,
+      .network-grid,
+      .companies-grid,
+      .services-grid,
+      .flow-grid{
+        margin-top:29px;
       }
 
-      .strength-card h3 {
-        font-size: 18px;
+      .problem-card,
+      .switch-card,
+      .network-card{
+        padding:19px 17px;
       }
 
-      .company-card {
-        padding: 22px 18px;
+      .switch-card h3{
+        font-size:18px;
       }
 
-      .company-name {
-        font-size: 20px;
+      .answer{
+        padding:23px 16px;
       }
 
-      .company-catch {
-        font-size: 17px;
+      .answer h3{
+        font-size:22px;
       }
 
-      .company-text {
-        font-size: 12px;
+      .compare-box{
+        padding:21px 17px;
       }
 
-      .service-grid {
-        grid-template-columns: 1fr;
+      .compare-box h3{
+        font-size:20px;
       }
 
-      .service-card {
-        padding: 19px 17px;
+      .company{
+        padding:21px 17px;
       }
 
-      .consult-big {
-        font-size: 29px;
-        line-height: 1.22;
+      .company h3{
+        font-size:19px;
       }
 
-      .contact-form {
-        padding: 19px 14px;
+      .company .catch{
+        font-size:16px;
       }
 
-      .form-row {
-        grid-template-columns: 1fr;
+      .big-cta h2{
+        font-size:28px;
       }
 
-      .footer-inner {
-        flex-direction: column;
+      form{
+        padding:18px 14px;
+      }
+
+      .footer-inner{
+        flex-direction:column;
       }
     }
+
   </style>
 </head>
 
 <body>
 
-<header class="header">
+<header>
   <div class="container header-inner">
 
-    <a href="#" class="brand">
-      <span class="brand-main">西日本ロジNAVI</span>
-      <span class="brand-sub">WEST JAPAN LOGISTICS NETWORK</span>
+    <a href="#" class="logo">
+      <strong>西日本ロジNAVI</strong>
+      <span>WEST JAPAN LOGISTICS NETWORK</span>
     </a>
 
-    <nav class="header-nav">
-      <a href="#strengths">特徴</a>
+    <nav>
+      <a href="#compare">物流比較</a>
       <a href="#companies">物流会社</a>
       <a href="#services">対応業務</a>
     </nav>
 
-    <a href="#contact" class="header-cta">
-      物流を無料相談
+    <a href="#contact" class="head-cta">
+      無料で物流比較
     </a>
 
   </div>
 </header>
 
+
 <main>
 
   <!-- HERO -->
+
   <section class="hero">
 
-    <div class="container hero-content">
+    <div class="container">
 
-      <div class="eyebrow">
-        <span class="eyebrow-dot"></span>
-        OSAKA × FUKUOKA × KOBE → NATIONWIDE
+      <div class="hero-badge">
+        物流会社の比較・乗り換え・新規立ち上げ
       </div>
 
-      <h1 class="hero-title">
-        西日本3拠点から、<br>
-        <span class="blue">全国へ届ける。</span>
+      <h1>
+        今の物流、<br>
+        <span class="blue">本当にそのままでいいですか？</span>
       </h1>
 
-      <p class="hero-lead">
-        大阪・福岡・神戸をつなぐ物流ネットワーク。<br>
-        <strong>3PL・発送代行・EC物流・WMS・EC支援。</strong><br>
-        保管から在庫管理、検品・流通加工、出荷まで。<br>
-        物流会社がまだ決まっていない段階からご相談いただけます。
+      <p class="hero-copy">
+        Amazon FBA・楽天市場・Yahoo!ショッピングなどを含む
+        <strong>EC物流の見直し</strong>から、
+        現在の物流会社との比較、倉庫移管、新規EC物流の立ち上げまで。<br>
+        大阪・福岡・神戸の物流会社3社から、
+        御社に合う物流体制をご相談いただけます。
       </p>
 
-      <div class="nationwide">
-        <span class="nationwide-mark">●</span>
-        大阪・福岡・神戸の物流拠点から全国発送に対応
-      </div>
-
-      <div class="hero-services">
-        <span class="service-pill">全国発送対応</span>
-        <span class="service-pill">WMS運用</span>
-        <span class="service-pill">3PL</span>
-        <span class="service-pill">EC物流</span>
-        <span class="service-pill">発送代行</span>
-        <span class="service-pill">倉庫保管</span>
-        <span class="service-pill">在庫管理</span>
-        <span class="service-pill">検品・流通加工</span>
-        <span class="service-pill">EC支援</span>
+      <div class="hero-points">
+        <span class="hero-point">全国発送対応</span>
+        <span class="hero-point">各社WMS運用</span>
+        <span class="hero-point">3PL</span>
+        <span class="hero-point">EC物流</span>
+        <span class="hero-point">発送代行</span>
+        <span class="hero-point">倉庫移管</span>
+        <span class="hero-point">流通加工</span>
+        <span class="hero-point">BtoB物流</span>
       </div>
 
       <div class="hero-actions">
 
-        <a href="#contact" class="btn-primary">
-          物流を無料相談する →
+        <a href="#contact" class="btn btn-main">
+          今の物流と無料で比較する →
         </a>
 
-        <a href="#companies" class="btn-secondary">
-          3社の特徴を見る
+        <a href="#compare" class="btn btn-sub">
+          乗り換え・比較について見る
         </a>
 
       </div>
 
       <p class="hero-note">
-        ※ 依頼先・倉庫・見積条件が決まっていない段階でもご相談いただけます。
+        ※ 現在の物流会社を継続するか迷っている段階でもご相談いただけます。
       </p>
 
-      <div class="trustbar">
 
-        <div class="trust-item">
-          <small>AREA</small>
+      <div class="hero-trust">
+
+        <div class="trust">
+          <small>NETWORK</small>
           <strong>大阪・福岡・神戸</strong>
-          <span>西日本3エリアの物流ネットワーク</span>
+          <span>西日本3社の物流ネットワーク</span>
         </div>
 
-        <div class="trust-item">
+        <div class="trust">
           <small>DELIVERY</small>
           <strong>全国発送対応</strong>
-          <span>各物流拠点から全国への出荷に対応</span>
+          <span>各物流拠点から全国へ</span>
         </div>
 
-        <div class="trust-item">
+        <div class="trust">
           <small>WMS</small>
           <strong>各社WMS運用</strong>
-          <span>入庫・在庫・出荷管理に活用</span>
+          <span>入庫・在庫・出荷管理</span>
         </div>
 
-        <div class="trust-item">
-          <small>SERVICE</small>
-          <strong>3PL・EC物流</strong>
-          <span>保管から発送・流通加工まで</span>
+        <div class="trust">
+          <small>CONSULT</small>
+          <strong>物流会社比較</strong>
+          <span>依頼先が未定でも相談可能</span>
         </div>
 
       </div>
@@ -1225,52 +1366,324 @@
   </section>
 
 
-  <!-- STRENGTHS -->
-  <section class="strengths" id="strengths">
+  <!-- PROBLEMS -->
+
+  <section class="section problem">
 
     <div class="container">
 
-      <p class="section-label">
-        WEST JAPAN LOGISTICS NETWORK
+      <div class="problem-head">
+
+        <p class="label">LOGISTICS PROBLEMS</p>
+
+        <h2 class="title">
+          こんな物流の悩み、<br>
+          抱えていませんか？
+        </h2>
+
+        <p class="lead">
+          物流会社の変更を検討する理由は、料金だけではありません。
+          対応速度、柔軟性、在庫管理、流通加工、複数モール対応など、
+          物流全体を見直すことが重要です。
+        </p>
+
+      </div>
+
+
+      <div class="problem-grid">
+
+        <div class="problem-card">
+          <div class="icon">¥</div>
+          <h3>物流費を一度比較してみたい</h3>
+          <p>
+            現在の保管費・出荷費・作業費などを含めて、
+            他の物流体制を検討したい。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">→</div>
+          <h3>今の物流会社から乗り換えたい</h3>
+          <p>
+            対応速度や作業内容、柔軟性などを理由に、
+            別の物流会社を探している。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">EC</div>
+          <h3>EC出荷が増えてきた</h3>
+          <p>
+            自社発送では限界。
+            EC物流を外部倉庫へ移したい。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">＋</div>
+          <h3>複数モールの物流をまとめたい</h3>
+          <p>
+            Amazon・楽天市場・Yahoo!ショッピングなど、
+            販路の増加に物流を合わせたい。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">箱</div>
+          <h3>検品・セット組も任せたい</h3>
+          <p>
+            単純発送だけでなく、
+            検品・ラベル貼り・セット作業も相談したい。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">W</div>
+          <h3>WMSで在庫を管理したい</h3>
+          <p>
+            入庫・在庫・ピッキング・出荷まで、
+            WMSを活用した管理を検討している。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">新</div>
+          <h3>新しいECを立ち上げる</h3>
+          <p>
+            EC事業開始時点から、
+            倉庫・出荷体制を整えたい。
+          </p>
+        </div>
+
+        <div class="problem-card">
+          <div class="icon">?</div>
+          <h3>どの物流会社が合うか分からない</h3>
+          <p>
+            物流会社を選ぶ前に、
+            まず条件を相談したい。
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="answer">
+
+        <small>WEST JAPAN LOGISTICS NAVI</small>
+
+        <h3>
+          その物流、3社のネットワークで整理します。
+        </h3>
+
+        <p>
+          「物流会社を変更する」と決めていなくても大丈夫です。
+          現状を確認しながら、現在の物流を続ける場合も含めて、
+          新しい物流体制を比較検討できます。
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SWITCH -->
+
+  <section class="section switch" id="compare">
+
+    <div class="container">
+
+      <p class="label">
+        LOGISTICS SWITCH & COMPARISON
       </p>
 
-      <h2 class="section-title">
-        倉庫を探すだけじゃない。<br>
-        物流全体を相談できる。
+      <h2 class="title">
+        今の物流との比較・<br>
+        乗り換えもご相談ください。
       </h2>
 
-      <p class="section-description">
-        西日本ロジNAVIは、大阪・福岡・神戸の物流会社をつなぐ物流相談窓口です。
-        3PL、EC物流、発送代行、倉庫保管、在庫管理、検品・流通加工、EC支援まで、
-        案件内容に合わせて物流体制をご相談いただけます。
+      <p class="lead">
+        現在利用している物流サービスや倉庫があっても問題ありません。
+        月間出荷件数、商品サイズ、保管量、作業内容などを確認しながら、
+        別の物流体制を検討できます。
       </p>
 
-      <div class="strength-grid">
 
-        <div class="strength-card">
-          <div class="strength-icon">01</div>
-          <h3>西日本3拠点から全国発送</h3>
+      <div class="switch-grid">
+
+        <article class="switch-card">
+
+          <span class="num">01 / AMAZON</span>
+
+          <h3>
+            Amazon FBAを含む物流の見直し
+          </h3>
+
           <p>
-            大阪・福岡・神戸を物流拠点として、
-            EC商品やBtoB商品など全国への発送に対応します。
+            FBAを利用しながら、Amazon以外の販売チャネルも増えてきた場合や、
+            保管・出荷・流通加工などを含めた物流体制を
+            改めて検討したい場合に。
+          </p>
+
+          <div class="switch-tags">
+            <span>FBA見直し</span>
+            <span>EC物流</span>
+            <span>複数販路</span>
+            <span>全国発送</span>
+          </div>
+
+        </article>
+
+
+        <article class="switch-card">
+
+          <span class="num">02 / RAKUTEN・YAHOO!</span>
+
+          <h3>
+            楽天・Yahoo!など複数モール物流
+          </h3>
+
+          <p>
+            楽天市場やYahoo!ショッピングなど、
+            ECモールの出荷を含め、
+            複数販路の物流をまとめて見直したい企業様へ。
+          </p>
+
+          <div class="switch-tags">
+            <span>楽天市場</span>
+            <span>Yahoo!ショッピング</span>
+            <span>複数モール</span>
+            <span>発送代行</span>
+          </div>
+
+        </article>
+
+
+        <article class="switch-card">
+
+          <span class="num">03 / CURRENT 3PL</span>
+
+          <h3>
+            現在の物流会社との比較
+          </h3>
+
+          <p>
+            現在利用している3PL・倉庫・発送代行会社の
+            料金・作業範囲・対応力などを踏まえ、
+            新しい候補を検討したい場合にも。
+          </p>
+
+          <div class="switch-tags">
+            <span>3PL比較</span>
+            <span>倉庫比較</span>
+            <span>物流改善</span>
+            <span>倉庫移管</span>
+          </div>
+
+        </article>
+
+
+        <article class="switch-card">
+
+          <span class="num">04 / NEW BUSINESS</span>
+
+          <h3>
+            新規EC・新規物流の立ち上げ
+          </h3>
+
+          <p>
+            これからECを始める企業様、
+            自社発送から物流アウトソーシングへ
+            移行したい企業様もご相談いただけます。
+          </p>
+
+          <div class="switch-tags">
+            <span>新規EC</span>
+            <span>自社発送卒業</span>
+            <span>物流設計</span>
+            <span>3PL</span>
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <div class="compare-box">
+
+        <div>
+
+          <h3>
+            現在の物流条件が分かれば、
+            より具体的に比較できます。
+          </h3>
+
+          <p>
+            現在の倉庫名を出したくない場合も問題ありません。
+            月間出荷件数・保管量・配送サイズ・作業内容など、
+            分かる範囲だけお知らせください。
+          </p>
+
+        </div>
+
+        <a href="#contact" class="btn btn-main">
+          今の物流と比較する →
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- NETWORK -->
+
+  <section class="section network">
+
+    <div class="container">
+
+      <p class="label">
+        WHY NISHINIHON LOGI NAVI
+      </p>
+
+      <h2 class="title">
+        1社だけを見るのではなく、<br>
+        物流体制から考える。
+      </h2>
+
+      <p class="lead">
+        西日本ロジNAVIは、特定の1サービスだけを売るのではなく、
+        大阪・福岡・神戸の3社それぞれの特徴を踏まえて
+        物流の相談ができる窓口です。
+      </p>
+
+
+      <div class="network-grid">
+
+        <div class="network-card">
+          <strong>01 / THREE COMPANIES</strong>
+          <h3>3社の物流会社</h3>
+          <p>
+            大阪・福岡・神戸の物流会社から、
+            商品や物量、作業内容に合わせて物流体制を検討できます。
           </p>
         </div>
 
-        <div class="strength-card">
-          <div class="strength-icon">02</div>
-          <h3>各社WMSを活用</h3>
+        <div class="network-card">
+          <strong>02 / NATIONWIDE</strong>
+          <h3>全国発送対応</h3>
           <p>
-            各社それぞれの倉庫でWMSを使用。
-            入庫・在庫管理・出荷など物流オペレーションの管理に活用しています。
+            西日本の物流拠点を活用しながら、
+            全国への発送をご相談いただけます。
           </p>
         </div>
 
-        <div class="strength-card">
-          <div class="strength-icon">03</div>
-          <h3>物流会社選びから相談</h3>
+        <div class="network-card">
+          <strong>03 / WMS</strong>
+          <h3>各社WMSを使用</h3>
           <p>
-            「どの倉庫が合うか分からない」という段階でも大丈夫です。
-            ご相談内容を確認し、物流の方向性を整理します。
+            各物流会社それぞれの倉庫でWMSを使用し、
+            入庫・在庫・出荷管理に活用しています。
           </p>
         </div>
 
@@ -1281,50 +1694,57 @@
 
 
   <!-- WMS -->
-  <section class="wms-section">
 
-    <div class="container wms-layout">
+  <section class="section wms">
+
+    <div class="container wms-grid">
 
       <div>
 
-        <p class="section-label">
+        <p class="label">
           WAREHOUSE MANAGEMENT SYSTEM
         </p>
 
-        <h2 class="section-title">
+        <h2 class="title">
           WMSを活用した、<br>
-          入出荷・在庫管理。
+          物流オペレーション。
         </h2>
 
         <p class="wms-copy">
           GAMI・マックスエクスプレス・エスグローは、
           それぞれの倉庫でWMSを使用しています。
-          入庫から在庫管理、ピッキング、出荷まで、
-          各社の物流オペレーションに合わせてWMSを活用しています。
+          商品の入庫から在庫管理、ピッキング、検品、出荷まで、
+          各社の物流業務に合わせてWMSを活用しています。
         </p>
 
       </div>
 
+
       <div class="wms-flow">
 
-        <div class="wms-step">
+        <div class="wms-row">
           <span>01</span>
-          <strong>商品の入庫・入荷管理</strong>
+          <strong>商品入庫・入荷管理</strong>
         </div>
 
-        <div class="wms-step">
+        <div class="wms-row">
           <span>02</span>
           <strong>在庫・ロケーション管理</strong>
         </div>
 
-        <div class="wms-step">
+        <div class="wms-row">
           <span>03</span>
-          <strong>ピッキング・検品・流通加工</strong>
+          <strong>ピッキング・検品</strong>
         </div>
 
-        <div class="wms-step">
+        <div class="wms-row">
           <span>04</span>
-          <strong>梱包・発送・出荷管理</strong>
+          <strong>流通加工・梱包</strong>
+        </div>
+
+        <div class="wms-row">
+          <span>05</span>
+          <strong>発送・出荷管理</strong>
         </div>
 
       </div>
@@ -1334,63 +1754,60 @@
 
 
   <!-- COMPANIES -->
-  <section class="companies" id="companies">
+
+  <section class="section companies" id="companies">
 
     <div class="container">
 
-      <p class="section-label">
-        THREE LOGISTICS COMPANIES
+      <p class="label">
+        LOGISTICS PARTNERS
       </p>
 
-      <h2 class="section-title">
-        3社それぞれの強みで、<br>
-        物流を支える。
+      <h2 class="title">
+        大阪・福岡・神戸。<br>
+        3社それぞれの物流力。
       </h2>
 
-      <p class="section-description">
-        3社すべてが3PL・発送代行・EC物流・EC支援に対応。
-        各社WMSを活用し、それぞれの拠点・設備・得意領域を活かした
-        物流体制をご相談いただけます。
+      <p class="lead">
+        3社すべてが、3PL・EC物流・発送代行・EC支援に対応。
+        全国発送、WMSを活用した物流管理など、
+        各社の特徴を活かしてご相談いただけます。
       </p>
 
-      <div class="company-grid">
+
+      <div class="companies-grid">
 
         <!-- GAMI -->
-        <article class="company-card">
 
-          <span class="company-city">OSAKA / 大阪</span>
+        <article class="company">
 
-          <h3 class="company-name">株式会社GAMI</h3>
+          <span class="city">
+            OSAKA / 大阪
+          </span>
 
-          <div class="company-catch">
-            柔軟な物流対応。<br>
+          <h3>
+            株式会社GAMI
+          </h3>
+
+          <div class="catch">
+            小回りだけじゃない。<br>
             保管・作業・輸送まで。
           </div>
 
-          <p class="company-text">
-            小ロット案件からEC物流、BtoB物流、
-            倉庫保管、検品・流通加工まで柔軟に対応。
+          <p>
+            小ロットからEC・BtoB物流、
+            倉庫保管、検品・流通加工まで対応。
             利用運送による輸送手配や、
-            化粧品製造業許可取得倉庫での作業にも対応しています。
+            化粧品製造業許可取得倉庫での作業にも対応します。
           </p>
 
-          <div class="company-tags">
-            <span class="company-tag">3PL</span>
-            <span class="company-tag">EC物流</span>
-            <span class="company-tag">発送代行</span>
-            <span class="company-tag">WMS</span>
-            <span class="company-tag">利用運送</span>
-            <span class="company-tag">化粧品物流</span>
-            <span class="company-tag">流通加工</span>
-          </div>
-
-          <div class="company-points">
-            <div class="company-point">全国発送対応</div>
-            <div class="company-point">WMSを活用した物流管理</div>
-            <div class="company-point">小ロット・1坪から相談可能</div>
-            <div class="company-point">検品・梱包・セット組など流通加工</div>
-            <div class="company-point">利用運送による輸送手配</div>
-            <div class="company-point">化粧品製造業許可取得倉庫での作業</div>
+          <div class="company-list">
+            <div>全国発送対応</div>
+            <div>WMSを活用した物流管理</div>
+            <div>1坪から相談可能</div>
+            <div>検品・セット組・流通加工</div>
+            <div>利用運送による輸送手配</div>
+            <div>化粧品製造業許可取得倉庫</div>
           </div>
 
           <div class="company-actions">
@@ -1407,7 +1824,7 @@
               href="https://www.gamigami.net/"
               target="_blank"
               rel="noopener"
-              class="company-official"
+              class="company-web"
             >
               公式サイトを見る ↗
             </a>
@@ -1418,43 +1835,35 @@
 
 
         <!-- MAX -->
-        <article class="company-card">
 
-          <span class="company-city">FUKUOKA / 福岡</span>
+        <article class="company">
 
-          <h3 class="company-name">
+          <span class="city">
+            FUKUOKA / 福岡
+          </span>
+
+          <h3>
             株式会社マックスエクスプレス
           </h3>
 
-          <div class="company-catch">
+          <div class="catch">
             物流からEC・ITまで。<br>
             福岡から全国へ。
           </div>
 
-          <p class="company-text">
-            福岡を拠点に、倉庫保管、発送代行、
-            EC物流、3PLなどに対応。
-            物流オペレーションだけでなく、
-            ECやIT領域も含めた支援を行っています。
+          <p>
+            福岡を拠点に、
+            3PL・倉庫保管・発送代行・EC物流などに対応。
+            ECやIT分野も含めた物流支援を行っています。
           </p>
 
-          <div class="company-tags">
-            <span class="company-tag">3PL</span>
-            <span class="company-tag">EC物流</span>
-            <span class="company-tag">発送代行</span>
-            <span class="company-tag">WMS</span>
-            <span class="company-tag">EC支援</span>
-            <span class="company-tag">倉庫保管</span>
-            <span class="company-tag">IT支援</span>
-          </div>
-
-          <div class="company-points">
-            <div class="company-point">全国発送対応</div>
-            <div class="company-point">WMSを活用した物流管理</div>
-            <div class="company-point">福岡を中心とした物流拠点</div>
-            <div class="company-point">EC物流・発送代行</div>
-            <div class="company-point">物流・EC・ITを横断した支援</div>
-            <div class="company-point">BtoB・BtoC物流の相談</div>
+          <div class="company-list">
+            <div>全国発送対応</div>
+            <div>WMSを活用した物流管理</div>
+            <div>3PL・EC物流</div>
+            <div>発送代行・倉庫保管</div>
+            <div>EC支援</div>
+            <div>物流・EC・ITを横断した支援</div>
           </div>
 
           <div class="company-actions">
@@ -1471,7 +1880,7 @@
               href="https://www.maxexpress.co.jp/"
               target="_blank"
               rel="noopener"
-              class="company-official"
+              class="company-web"
             >
               公式サイトを見る ↗
             </a>
@@ -1482,42 +1891,35 @@
 
 
         <!-- SGROW -->
-        <article class="company-card">
 
-          <span class="company-city">KOBE / 神戸</span>
+        <article class="company">
 
-          <h3 class="company-name">
+          <span class="city">
+            KOBE / 神戸
+          </span>
+
+          <h3>
             株式会社エスグロー
           </h3>
 
-          <div class="company-catch">
-            神戸を物流拠点に。<br>
-            3PL・EC物流を支える。
+          <div class="catch">
+            神戸から動かす。<br>
+            3PL・EC物流。
           </div>
 
-          <p class="company-text">
+          <p>
             神戸エリアを中心に物流センターを展開。
-            3PL、EC物流、発送代行、EC支援、
-            在庫管理、検品・流通加工など幅広い物流業務に対応しています。
+            3PL、EC物流、発送代行、
+            在庫管理、流通加工など幅広い物流業務に対応します。
           </p>
 
-          <div class="company-tags">
-            <span class="company-tag">3PL</span>
-            <span class="company-tag">EC物流</span>
-            <span class="company-tag">発送代行</span>
-            <span class="company-tag">WMS</span>
-            <span class="company-tag">EC支援</span>
-            <span class="company-tag">在庫管理</span>
-            <span class="company-tag">流通加工</span>
-          </div>
-
-          <div class="company-points">
-            <div class="company-point">全国発送対応</div>
-            <div class="company-point">WMSを活用した物流管理</div>
-            <div class="company-point">神戸エリアの物流センター</div>
-            <div class="company-point">3PL・EC物流</div>
-            <div class="company-point">発送代行・在庫管理</div>
-            <div class="company-point">検品・流通加工</div>
+          <div class="company-list">
+            <div>全国発送対応</div>
+            <div>WMSを活用した物流管理</div>
+            <div>3PL・EC物流</div>
+            <div>発送代行</div>
+            <div>在庫管理</div>
+            <div>検品・流通加工</div>
           </div>
 
           <div class="company-actions">
@@ -1534,7 +1936,7 @@
               href="https://www.s-grow.co.jp/"
               target="_blank"
               rel="noopener"
-              class="company-official"
+              class="company-web"
             >
               公式サイトを見る ↗
             </a>
@@ -1550,87 +1952,125 @@
 
 
   <!-- SERVICES -->
-  <section class="services" id="services">
+
+  <section class="section services" id="services">
 
     <div class="container">
 
-      <p class="section-label">
+      <p class="label">
         LOGISTICS SERVICES
       </p>
 
-      <h2 class="section-title">
-        保管だけじゃない。<br>
-        出荷までまとめて相談。
+      <h2 class="title">
+        物流を、まとめて相談。
       </h2>
 
-      <p class="section-description">
-        EC物流・発送代行からBtoB物流まで、
-        商品や出荷形態に応じた物流業務をご相談いただけます。
+      <p class="lead">
+        単純な発送代行だけではなく、
+        保管・在庫管理・流通加工・BtoB出荷なども含めて
+        物流全体をご相談いただけます。
       </p>
 
-      <div class="service-grid">
 
-        <div class="service-card">
+      <div class="services-grid">
+
+        <div class="service">
           <h3>3PL</h3>
-          <p>
-            入庫・保管・在庫管理・出荷など、
-            物流業務全体のアウトソーシングを相談できます。
-          </p>
+          <p>物流業務全体のアウトソーシング。</p>
         </div>
 
-        <div class="service-card">
+        <div class="service">
           <h3>EC物流</h3>
-          <p>
-            EC商品の保管、ピッキング、
-            梱包、出荷などEC物流業務に対応します。
-          </p>
+          <p>EC商品の保管・梱包・出荷。</p>
         </div>
 
-        <div class="service-card">
+        <div class="service">
           <h3>発送代行</h3>
-          <p>
-            商品の保管から梱包・発送まで、
-            全国への出荷業務を相談できます。
-          </p>
+          <p>全国への商品発送業務。</p>
         </div>
 
-        <div class="service-card">
-          <h3>WMS・在庫管理</h3>
-          <p>
-            各社の倉庫でWMSを活用し、
-            入庫・在庫・出荷管理を行います。
-          </p>
+        <div class="service">
+          <h3>WMS</h3>
+          <p>入庫・在庫・出荷管理に活用。</p>
         </div>
 
-        <div class="service-card">
+        <div class="service">
           <h3>倉庫保管</h3>
-          <p>
-            商品や物量、出荷形態に合わせた
-            倉庫保管をご相談いただけます。
-          </p>
+          <p>商品や物量に合わせた保管。</p>
         </div>
 
-        <div class="service-card">
+        <div class="service">
           <h3>検品・流通加工</h3>
-          <p>
-            検品、ラベル貼り、セット組、
-            梱包など各種流通加工に対応します。
-          </p>
+          <p>検品・セット組・ラベル貼りなど。</p>
         </div>
 
-        <div class="service-card">
+        <div class="service">
           <h3>BtoB物流</h3>
+          <p>企業・店舗・卸先への出荷。</p>
+        </div>
+
+        <div class="service">
+          <h3>EC支援</h3>
+          <p>EC運営や物流改善の相談。</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FLOW -->
+
+  <section class="section flow">
+
+    <div class="container">
+
+      <p class="label">
+        CONSULTATION FLOW
+      </p>
+
+      <h2 class="title">
+        まだ条件が決まっていなくても、<br>
+        ご相談いただけます。
+      </h2>
+
+
+      <div class="flow-grid">
+
+        <div class="flow-card">
+          <small>STEP 01</small>
+          <h3>無料相談</h3>
           <p>
-            店舗・企業・卸先向けなど、
-            BtoB出荷についても相談できます。
+            現在の物流や新規案件について、
+            分かる範囲でお知らせください。
           </p>
         </div>
 
-        <div class="service-card">
-          <h3>EC支援</h3>
+        <div class="flow-card">
+          <small>STEP 02</small>
+          <h3>条件確認</h3>
           <p>
-            EC運営や物流改善など、
-            出荷業務以外のEC関連相談にも対応します。
+            商品、保管量、出荷件数、
+            作業内容などを確認します。
+          </p>
+        </div>
+
+        <div class="flow-card">
+          <small>STEP 03</small>
+          <h3>物流体制を検討</h3>
+          <p>
+            3社の特徴を踏まえ、
+            案件に合う物流体制を整理します。
+          </p>
+        </div>
+
+        <div class="flow-card">
+          <small>STEP 04</small>
+          <h3>比較・具体化</h3>
+          <p>
+            現在の物流条件も踏まえながら、
+            導入・移管を検討します。
           </p>
         </div>
 
@@ -1640,64 +2080,41 @@
   </section>
 
 
-  <!-- CONSULT -->
-  <section class="consult-section">
+  <!-- CTA -->
 
-    <div class="container consult-layout">
+  <section class="section big-cta">
+
+    <div class="container big-cta-inner">
 
       <div>
 
-        <p class="section-label">
-          LOGISTICS CONSULTATION
+        <p class="label">
+          FREE LOGISTICS CONSULTATION
         </p>
 
-        <h2 class="consult-big">
-          どこに頼むか<br>
-          決まっていなくても、<br>
-          大丈夫です。
+        <h2>
+          変えるかどうかは、<br>
+          比較してから決めればいい。
         </h2>
 
-        <p class="consult-copy">
-          大阪・福岡・神戸。
-          どの物流会社が自社に合うか分からなくても問題ありません。
-          商品、物量、発送エリア、作業内容などを確認し、
-          3社それぞれの特徴を踏まえて物流体制をご案内します。
-        </p>
-
-        <p class="consult-note">
-          ※ 西日本ロジNAVIの運営・お問い合わせ一次受付は株式会社GAMIが担当します。
+        <p>
+          現在の物流会社に大きな不満がなくても構いません。
+          「他の物流会社ならどうなる？」という段階からご相談ください。
         </p>
 
       </div>
 
-      <div class="consult-list">
 
-        <div class="consult-item">
-          ✓ 現在の物流会社から切り替えたい
-        </div>
+      <div class="cta-list">
 
-        <div class="consult-item">
-          ✓ ECの発送代行を依頼したい
-        </div>
+        <div>✓ 現在の物流会社との比較</div>
+        <div>✓ Amazon FBAを含む物流見直し</div>
+        <div>✓ 楽天・Yahoo!など複数モール物流</div>
+        <div>✓ 新規EC物流立ち上げ</div>
+        <div>✓ 倉庫移管・発送代行</div>
 
-        <div class="consult-item">
-          ✓ 全国発送できる倉庫を探している
-        </div>
-
-        <div class="consult-item">
-          ✓ WMSを使った在庫管理を相談したい
-        </div>
-
-        <div class="consult-item">
-          ✓ 検品・セット組・流通加工も依頼したい
-        </div>
-
-        <div class="consult-item">
-          ✓ どの物流会社が合うか分からない
-        </div>
-
-        <a href="#contact" class="btn-primary">
-          無料で物流相談する →
+        <a href="#contact" class="btn btn-main">
+          無料で相談する →
         </a>
 
       </div>
@@ -1707,29 +2124,28 @@
 
 
   <!-- CONTACT -->
-  <section class="contact" id="contact">
 
-    <div class="container contact-layout">
+  <section class="section contact" id="contact">
+
+    <div class="container contact-grid">
 
       <div class="contact-side">
 
-        <p class="section-label">
+        <p class="label">
           FREE CONSULTATION
         </p>
 
-        <h2 class="section-title">
-          物流の相談は、<br>
-          こちらから。
+        <h2 class="title">
+          今の物流、<br>
+          一度比べてみませんか？
         </h2>
 
-        <p class="section-description">
-          まだ物流会社を決めていない段階でも大丈夫です。
-          全国発送、EC物流、3PL、発送代行、
-          WMS、倉庫保管、流通加工などお気軽にご相談ください。
+        <p class="lead">
+          新規物流・物流会社変更・EC物流・倉庫移管など、
+          まだ具体的に決まっていない段階でもご相談いただけます。
         </p>
 
-        <div class="contact-info">
-
+        <div class="contact-note">
           <strong>
             西日本ロジNAVI<br>
             運営・一次受付窓口
@@ -1741,61 +2157,213 @@
 
           <br><br>
 
-          お問い合わせ内容を確認し、
-          ご希望や案件内容に応じて
-          物流体制をご案内します。
-
+          ご相談内容を確認し、
+          案件やご希望に合わせて
+          物流体制を整理します。
         </div>
 
       </div>
 
 
-      <form class="contact-form" id="contactForm">
+      <form id="contactForm">
 
         <div class="form-grid">
 
-          <div class="form-row">
 
-            <div class="field">
-              <label>
+          <div class="two">
+
+            <div>
+              <label class="field-label">
                 会社名
-                <span class="required">必須</span>
+                <span class="req">必須</span>
               </label>
-              <input type="text" name="company" required autocomplete="organization">
+
+              <input
+                type="text"
+                name="company"
+                required
+                autocomplete="organization"
+              >
             </div>
 
-            <div class="field">
-              <label>
+
+            <div>
+              <label class="field-label">
                 お名前
-                <span class="required">必須</span>
+                <span class="req">必須</span>
               </label>
-              <input type="text" name="name" required autocomplete="name">
+
+              <input
+                type="text"
+                name="name"
+                required
+                autocomplete="name"
+              >
             </div>
 
           </div>
 
-          <div class="form-row">
 
-            <div class="field">
-              <label>
+          <div class="two">
+
+            <div>
+              <label class="field-label">
                 メールアドレス
-                <span class="required">必須</span>
+                <span class="req">必須</span>
               </label>
-              <input type="email" name="email" required autocomplete="email">
+
+              <input
+                type="email"
+                name="email"
+                required
+                autocomplete="email"
+              >
             </div>
 
-            <div class="field">
-              <label>電話番号</label>
-              <input type="tel" name="tel" autocomplete="tel">
+
+            <div>
+              <label class="field-label">
+                電話番号
+              </label>
+
+              <input
+                type="tel"
+                name="tel"
+                autocomplete="tel"
+              >
             </div>
 
           </div>
 
-          <div class="field">
 
-            <label>相談したい会社</label>
+          <div>
 
-            <select name="target" id="targetCompany">
+            <label class="field-label">
+              ご相談内容
+            </label>
+
+            <select id="consultType">
+
+              <option value="">
+                選択してください
+              </option>
+
+              <option>
+                現在の物流会社との比較
+              </option>
+
+              <option>
+                Amazon FBAを含む物流の見直し
+              </option>
+
+              <option>
+                楽天市場・Yahoo!ショッピングなどの物流見直し
+              </option>
+
+              <option>
+                新規EC物流の立ち上げ
+              </option>
+
+              <option>
+                倉庫移管
+              </option>
+
+              <option>
+                物流コストの見直し
+              </option>
+
+              <option>
+                3PL
+              </option>
+
+              <option>
+                EC物流
+              </option>
+
+              <option>
+                発送代行
+              </option>
+
+              <option>
+                倉庫保管
+              </option>
+
+              <option>
+                WMS・在庫管理
+              </option>
+
+              <option>
+                検品・流通加工
+              </option>
+
+              <option>
+                BtoB物流
+              </option>
+
+              <option>
+                その他・まだ決まっていない
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              現在の物流状況
+            </label>
+
+            <select id="currentLogistics">
+
+              <option value="">
+                選択してください
+              </option>
+
+              <option>
+                Amazon FBAを利用中
+              </option>
+
+              <option>
+                楽天関連の物流を利用中
+              </option>
+
+              <option>
+                Yahoo!ショッピング関連の物流を利用中
+              </option>
+
+              <option>
+                その他の3PL・物流会社を利用中
+              </option>
+
+              <option>
+                自社で発送している
+              </option>
+
+              <option>
+                これからEC・物流を始める
+              </option>
+
+              <option>
+                その他
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              相談したい会社
+            </label>
+
+            <select
+              name="target"
+              id="targetCompany"
+            >
 
               <option>
                 まだ決めていない・相談して選びたい
@@ -1817,52 +2385,36 @@
 
           </div>
 
-          <div class="field">
 
-            <label>相談内容</label>
+          <div>
 
-            <select id="contactService">
-
-              <option value="">
-                選択してください
-              </option>
-
-              <option>3PL</option>
-              <option>EC物流</option>
-              <option>発送代行</option>
-              <option>倉庫保管</option>
-              <option>WMS・在庫管理</option>
-              <option>検品・流通加工</option>
-              <option>BtoB物流</option>
-              <option>EC支援</option>
-              <option>物流会社の切り替え</option>
-              <option>その他・まだ決まっていない</option>
-
-            </select>
-
-          </div>
-
-          <div class="field">
-
-            <label>
+            <label class="field-label">
               お問い合わせ内容
-              <span class="required">必須</span>
+              <span class="req">必須</span>
             </label>
 
             <textarea
               name="message"
               required
-              placeholder="例：EC商品の発送代行を検討しています。月500件程度、全国発送予定です。保管から発送まで相談したいです。"
+              placeholder="例：現在EC物流を外部倉庫へ委託しています。月間約1,000件出荷です。今の物流会社との比較をしたいです。"
             ></textarea>
 
           </div>
 
-          <label class="privacy-label">
 
-            <input type="checkbox" name="privacy" required>
+          <label class="privacy">
+
+            <input
+              type="checkbox"
+              required
+            >
 
             <span>
-              <a href="/privacy.html" target="_blank" rel="noopener">
+              <a
+                href="/privacy.html"
+                target="_blank"
+                rel="noopener"
+              >
                 プライバシーポリシー
               </a>
               に同意のうえ送信します。
@@ -1870,12 +2422,17 @@
 
           </label>
 
-          <button type="submit" class="submit-btn">
-            無料相談を送る →
+
+          <button
+            type="submit"
+            class="submit"
+          >
+            無料で物流相談・比較する →
           </button>
 
-          <p class="form-bottom-note">
-            依頼先が決まっていない場合は「相談して選びたい」のままで送信できます。
+
+          <p class="form-note">
+            まだ物流会社を変更すると決めていなくてもご相談いただけます。
           </p>
 
         </div>
@@ -1899,15 +2456,27 @@
 
     <div class="footer-links">
 
-      <a href="https://www.gamigami.net/" target="_blank" rel="noopener">
+      <a
+        href="https://www.gamigami.net/"
+        target="_blank"
+        rel="noopener"
+      >
         GAMI
       </a>
 
-      <a href="https://www.maxexpress.co.jp/" target="_blank" rel="noopener">
+      <a
+        href="https://www.maxexpress.co.jp/"
+        target="_blank"
+        rel="noopener"
+      >
         MAX EXPRESS
       </a>
 
-      <a href="https://www.s-grow.co.jp/" target="_blank" rel="noopener">
+      <a
+        href="https://www.s-grow.co.jp/"
+        target="_blank"
+        rel="noopener"
+      >
         S-GROW
       </a>
 
@@ -1922,22 +2491,33 @@
 </footer>
 
 
-<a href="#contact" class="mobile-fixed">
-  物流を無料相談する →
+<a
+  href="#contact"
+  class="mobile-cta"
+>
+  今の物流と無料で比較する →
 </a>
 
 
 <script>
 
-  function selectCompany(companyName) {
+  function selectCompany(companyName){
 
-    const select = document.getElementById("targetCompany");
+    const select =
+      document.getElementById("targetCompany");
 
-    if (!select) return;
+    if(!select) return;
 
-    for (let i = 0; i < select.options.length; i++) {
+    for(
+      let i = 0;
+      i < select.options.length;
+      i++
+    ){
 
-      if (select.options[i].text.trim() === companyName) {
+      if(
+        select.options[i].text.trim()
+        === companyName
+      ){
 
         select.selectedIndex = i;
         break;
@@ -1951,95 +2531,159 @@
 
   document
     .getElementById("contactForm")
-    .addEventListener("submit", async function(e) {
+    .addEventListener(
+      "submit",
+      async function(e){
 
-      e.preventDefault();
+        e.preventDefault();
 
-      const form = e.currentTarget;
-      const button = form.querySelector(".submit-btn");
-      const formData = new FormData(form);
+        const form = e.currentTarget;
 
-      const selectedService =
-        document.getElementById("contactService").value;
+        const button =
+          form.querySelector(".submit");
 
-      let message = formData.get("message");
+        const formData =
+          new FormData(form);
 
-      if (selectedService) {
-        message =
-          "【相談内容】" +
-          selectedService +
-          "\n\n" +
-          message;
-      }
+        const consultType =
+          document.getElementById(
+            "consultType"
+          ).value;
 
-      const data = {
+        const currentLogistics =
+          document.getElementById(
+            "currentLogistics"
+          ).value;
 
-        company: formData.get("company"),
+        let message =
+          formData.get("message");
 
-        name: formData.get("name"),
 
-        email: formData.get("email"),
+        let additional = "";
 
-        tel: formData.get("tel"),
 
-        target: formData.get("target"),
+        if(consultType){
 
-        message: message
-
-      };
-
-      const originalText = button.textContent;
-
-      button.disabled = true;
-      button.textContent = "送信中...";
-
-      try {
-
-        const response = await fetch("/api/contact", {
-
-          method: "POST",
-
-          headers: {
-            "Content-Type": "application/json"
-          },
-
-          body: JSON.stringify(data)
-
-        });
-
-        const result = await response.json();
-
-        if (!response.ok) {
-
-          throw new Error(
-            result.error ||
-            "送信に失敗しました。"
-          );
+          additional +=
+            "【ご相談内容】\n" +
+            consultType +
+            "\n\n";
 
         }
 
-        alert(
-          "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
-        );
 
-        form.reset();
+        if(currentLogistics){
 
-      } catch (error) {
+          additional +=
+            "【現在の物流状況】\n" +
+            currentLogistics +
+            "\n\n";
 
-        console.error(error);
+        }
 
-        alert(
-          "送信に失敗しました。\n時間をおいて再度お試しください。"
-        );
 
-      } finally {
+        message =
+          additional +
+          "【お問い合わせ内容】\n" +
+          message;
 
-        button.disabled = false;
-        button.textContent = originalText;
+
+        const data = {
+
+          company:
+            formData.get("company"),
+
+          name:
+            formData.get("name"),
+
+          email:
+            formData.get("email"),
+
+          tel:
+            formData.get("tel"),
+
+          target:
+            formData.get("target"),
+
+          message:
+            message
+
+        };
+
+
+        const originalText =
+          button.textContent;
+
+
+        button.disabled = true;
+
+        button.textContent =
+          "送信中...";
+
+
+        try{
+
+          const response =
+            await fetch(
+              "/api/contact",
+              {
+
+                method:"POST",
+
+                headers:{
+                  "Content-Type":
+                    "application/json"
+                },
+
+                body:
+                  JSON.stringify(data)
+
+              }
+            );
+
+
+          const result =
+            await response.json();
+
+
+          if(!response.ok){
+
+            throw new Error(
+              result.error ||
+              "送信に失敗しました。"
+            );
+
+          }
+
+
+          alert(
+            "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
+          );
+
+
+          form.reset();
+
+
+        }catch(error){
+
+          console.error(error);
+
+          alert(
+            "送信に失敗しました。\n時間をおいて再度お試しください。"
+          );
+
+
+        }finally{
+
+          button.disabled = false;
+
+          button.textContent =
+            originalText;
+
+        }
 
       }
-
-    });
+    );
 
 </script>
 
