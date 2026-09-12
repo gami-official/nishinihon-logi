@@ -1,0 +1,2388 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>EC物流・発送代行・EC倉庫｜全国発送・WMS・3PL｜西日本ロジNAVI</title>
+
+  <meta
+    name="description"
+    content="EC物流・発送代行・EC倉庫をお探しの企業様へ。大阪・福岡・神戸の物流会社3社から、商品の入庫・保管・WMS在庫管理・検品・流通加工・梱包・全国発送まで相談できます。新規EC、自社発送からの切り替え、3PLも対応。"
+  >
+
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="canonical" href="https://nishinihon-logi.jp/ec-logistics.html">
+
+  <meta property="og:title" content="EC物流・発送代行・EC倉庫｜西日本ロジNAVI">
+  <meta
+    property="og:description"
+    content="EC物流・発送代行・EC倉庫を相談。大阪・福岡・神戸の物流ネットワークから全国発送へ。WMS・3PL・流通加工にも対応。"
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nishinihon-logi.jp/ec-logistics.html">
+  <meta property="og:site_name" content="西日本ロジNAVI">
+
+  <style>
+    :root{
+      --blue:#1267ef;
+      --blue2:#0754cc;
+      --navy:#0c203b;
+      --text:#3e536d;
+      --muted:#708095;
+      --line:#dde7f1;
+      --soft:#f5f9fd;
+      --softblue:#edf5ff;
+      --white:#fff;
+      --green:#0aa56b;
+      --shadow:0 18px 50px rgba(20,55,95,.08);
+      --blue-shadow:0 16px 34px rgba(18,103,239,.22);
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+    html{
+      scroll-behavior:smooth;
+      scroll-padding-top:80px;
+    }
+
+    body{
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans JP",
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        sans-serif;
+      background:#fff;
+      color:var(--navy);
+      line-height:1.8;
+      overflow-x:hidden;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    button,
+    input,
+    select,
+    textarea{
+      font:inherit;
+    }
+
+    button{
+      cursor:pointer;
+    }
+
+    .container{
+      width:min(1120px,calc(100% - 48px));
+      margin:0 auto;
+    }
+
+    section{
+      padding:84px 0;
+    }
+
+    .label{
+      margin-bottom:11px;
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+      letter-spacing:.16em;
+    }
+
+    .title{
+      font-size:clamp(32px,4vw,55px);
+      line-height:1.18;
+      letter-spacing:-.045em;
+      font-weight:950;
+      word-break:keep-all;
+    }
+
+    .lead{
+      max-width:790px;
+      margin-top:18px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    /* HEADER */
+
+    header{
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      z-index:1000;
+      background:rgba(255,255,255,.95);
+      backdrop-filter:blur(15px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .header-inner{
+      min-height:70px;
+      display:flex;
+      align-items:center;
+      gap:24px;
+    }
+
+    .logo{
+      font-size:20px;
+      font-weight:950;
+      white-space:nowrap;
+    }
+
+    nav{
+      margin-left:auto;
+      display:flex;
+      align-items:center;
+      gap:22px;
+    }
+
+    nav a{
+      color:#607187;
+      font-size:12px;
+      font-weight:850;
+    }
+
+    .header-cta{
+      min-height:42px;
+      padding:0 18px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:999px;
+      background:var(--blue);
+      color:#fff;
+      font-size:11px;
+      font-weight:950;
+      box-shadow:var(--blue-shadow);
+    }
+
+    /* HERO */
+
+    .hero{
+      position:relative;
+      overflow:hidden;
+      padding:138px 0 76px;
+      background:
+        radial-gradient(circle at 88% 10%,rgba(18,103,239,.16),transparent 30%),
+        radial-gradient(circle at 0 100%,rgba(76,190,255,.08),transparent 30%),
+        linear-gradient(180deg,#f6faff,#fff);
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background-image:
+        linear-gradient(rgba(40,90,150,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(40,90,150,.035) 1px,transparent 1px);
+      background-size:58px 58px;
+      mask-image:linear-gradient(to bottom,#000,transparent 90%);
+    }
+
+    .hero .container{
+      position:relative;
+      z-index:2;
+    }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 12px;
+      border:1px solid #cee1fb;
+      border-radius:999px;
+      background:#eff6ff;
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+    }
+
+    .badge::before{
+      content:"";
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background:var(--blue);
+    }
+
+    .hero-title{
+      max-width:960px;
+      margin-top:20px;
+      font-size:clamp(44px,5.8vw,79px);
+      line-height:1.07;
+      letter-spacing:-.05em;
+      font-weight:950;
+    }
+
+    .hero-title span{
+      color:var(--blue);
+    }
+
+    .hero-title-pc{
+      display:block;
+    }
+
+    .hero-title-sp{
+      display:none;
+    }
+
+    .hero-copy{
+      max-width:820px;
+      margin-top:25px;
+      color:#5c6f87;
+      font-size:17px;
+    }
+
+    .hero-copy strong{
+      color:#203a58;
+    }
+
+    .hero-tags{
+      margin-top:23px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+
+    .hero-tag{
+      padding:7px 10px;
+      border:1px solid #d5e3f1;
+      border-radius:7px;
+      background:#fff;
+      color:#3e5672;
+      font-size:10px;
+      font-weight:900;
+    }
+
+    .hero-tag::before{
+      content:"✓ ";
+      color:var(--green);
+    }
+
+    .actions{
+      margin-top:30px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .btn-main,
+    .btn-sub{
+      min-height:55px;
+      padding:0 25px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:10px;
+      font-size:12px;
+      font-weight:950;
+    }
+
+    .btn-main{
+      background:var(--blue);
+      color:#fff;
+      box-shadow:var(--blue-shadow);
+    }
+
+    .btn-sub{
+      background:#fff;
+      border:1px solid #d8e2ed;
+      color:#314a68;
+    }
+
+    .hero-note{
+      margin-top:11px;
+      color:#7d8999;
+      font-size:10px;
+    }
+
+    /* PROBLEMS */
+
+    .problems{
+      background:#fff;
+    }
+
+    .problem-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:13px;
+    }
+
+    .problem-card{
+      padding:23px 20px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#fff;
+      box-shadow:0 10px 30px rgba(30,60,90,.025);
+    }
+
+    .problem-icon{
+      width:38px;
+      height:38px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:9px;
+      background:#eaf3ff;
+      color:var(--blue);
+      font-size:12px;
+      font-weight:950;
+    }
+
+    .problem-card h3{
+      margin-top:12px;
+      font-size:17px;
+      line-height:1.45;
+    }
+
+    .problem-card p{
+      margin-top:7px;
+      color:#718095;
+      font-size:11px;
+    }
+
+    /* SOLUTION */
+
+    .solution{
+      background:var(--soft);
+    }
+
+    .solution-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:11px;
+    }
+
+    .solution-card{
+      padding:22px 18px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
+    }
+
+    .solution-card small{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+    }
+
+    .solution-card h3{
+      margin-top:7px;
+      font-size:16px;
+    }
+
+    .solution-card p{
+      margin-top:6px;
+      color:#748296;
+      font-size:10px;
+    }
+
+    /* FULFILLMENT */
+
+    .fulfillment{
+      background:#10233f;
+      color:#fff;
+    }
+
+    .fulfillment-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:55px;
+      align-items:center;
+    }
+
+    .fulfillment .label{
+      color:#7fb4ff;
+    }
+
+    .fulfillment .title{
+      color:#fff;
+    }
+
+    .fulfillment-copy{
+      margin-top:18px;
+      color:#c3d0df;
+      font-size:14px;
+    }
+
+    .operation{
+      display:grid;
+      gap:9px;
+    }
+
+    .operation-row{
+      padding:15px 16px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      border:1px solid rgba(255,255,255,.13);
+      border-radius:9px;
+      background:rgba(255,255,255,.05);
+    }
+
+    .operation-row span{
+      width:29px;
+      height:29px;
+      flex-shrink:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:50%;
+      background:#fff;
+      color:#10233f;
+      font-size:10px;
+      font-weight:950;
+    }
+
+    .operation-row strong{
+      font-size:12px;
+    }
+
+    /* CASES */
+
+    .cases{
+      background:#fff;
+    }
+
+    .case-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:13px;
+    }
+
+    .case{
+      padding:25px 22px;
+      border:1px solid var(--line);
+      border-radius:15px;
+      background:#fff;
+    }
+
+    .case small{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+      letter-spacing:.13em;
+    }
+
+    .case h3{
+      margin-top:8px;
+      font-size:19px;
+      line-height:1.45;
+    }
+
+    .case p{
+      margin-top:9px;
+      color:#6d7d91;
+      font-size:11px;
+    }
+
+    .case-tags{
+      margin-top:14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+
+    .case-tags span{
+      padding:5px 7px;
+      border-radius:5px;
+      background:#edf5ff;
+      color:#45617f;
+      font-size:9px;
+      font-weight:850;
+    }
+
+    /* SERVICES */
+
+    .services{
+      background:#f5f8fc;
+    }
+
+    .services-grid{
+      margin-top:36px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:11px;
+    }
+
+    .service{
+      padding:20px 17px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
+    }
+
+    .service h3{
+      font-size:16px;
+    }
+
+    .service p{
+      margin-top:6px;
+      color:#748296;
+      font-size:10px;
+    }
+
+    /* NETWORK */
+
+    .network{
+      background:#fff;
+    }
+
+    .company-grid{
+      margin-top:38px;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:13px;
+    }
+
+    .company{
+      padding:25px;
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:#fff;
+    }
+
+    .company small{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+      letter-spacing:.14em;
+    }
+
+    .company h3{
+      margin-top:8px;
+      font-size:19px;
+    }
+
+    .company p{
+      margin-top:10px;
+      color:#6f7e91;
+      font-size:11px;
+    }
+
+    .company-list{
+      margin-top:14px;
+      display:grid;
+      gap:6px;
+    }
+
+    .company-list div{
+      color:#435872;
+      font-size:10px;
+    }
+
+    .company-list div::before{
+      content:"✓ ";
+      color:var(--blue);
+      font-weight:950;
+    }
+
+    /* FLOW */
+
+    .flow{
+      background:#f5f8fc;
+    }
+
+    .flow-grid{
+      margin-top:36px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:11px;
+    }
+
+    .flow-card{
+      padding:20px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
+    }
+
+    .flow-card small{
+      color:var(--blue);
+      font-size:9px;
+      font-weight:950;
+    }
+
+    .flow-card h3{
+      margin-top:6px;
+      font-size:16px;
+    }
+
+    .flow-card p{
+      margin-top:5px;
+      color:#718095;
+      font-size:10px;
+    }
+
+    /* CTA */
+
+    .cta{
+      background:#eaf3ff;
+    }
+
+    .cta-box{
+      padding:45px;
+      border-radius:20px;
+      background:linear-gradient(135deg,#1267ef,#0754cc);
+      color:#fff;
+      text-align:center;
+    }
+
+    .cta-box .title{
+      color:#fff;
+    }
+
+    .cta-box p{
+      max-width:720px;
+      margin:14px auto 0;
+      color:rgba(255,255,255,.87);
+      font-size:13px;
+    }
+
+    .cta-box .btn-main{
+      margin-top:22px;
+      background:#fff;
+      color:var(--blue);
+      box-shadow:none;
+    }
+
+    /* CONTACT */
+
+    .contact{
+      background:#fff;
+    }
+
+    .contact-grid{
+      display:grid;
+      grid-template-columns:.85fr 1.15fr;
+      gap:50px;
+      align-items:start;
+    }
+
+    .contact-info{
+      position:sticky;
+      top:95px;
+    }
+
+    .operator{
+      margin-top:19px;
+      padding:15px;
+      border:1px solid var(--line);
+      border-radius:10px;
+      background:#f6f9fc;
+      color:#65758b;
+      font-size:10px;
+    }
+
+    form{
+      padding:27px;
+      border:1px solid var(--line);
+      border-radius:17px;
+      background:#f8fbff;
+      box-shadow:var(--shadow);
+    }
+
+    .form-grid{
+      display:grid;
+      gap:14px;
+    }
+
+    .two{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+    }
+
+    label.field-label{
+      display:block;
+      margin-bottom:5px;
+      font-size:10px;
+      font-weight:900;
+    }
+
+    .req{
+      margin-left:4px;
+      color:var(--blue);
+      font-size:8px;
+    }
+
+    input,
+    select,
+    textarea{
+      width:100%;
+      padding:12px;
+      border:1px solid #d5dfeb;
+      border-radius:8px;
+      background:#fff;
+      outline:none;
+      color:#243a55;
+      font-size:12px;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus{
+      border-color:var(--blue);
+      box-shadow:0 0 0 3px rgba(18,103,239,.08);
+    }
+
+    textarea{
+      min-height:140px;
+      resize:vertical;
+    }
+
+    .privacy{
+      display:flex;
+      align-items:flex-start;
+      gap:8px;
+      color:#748296;
+      font-size:9px;
+    }
+
+    .privacy input{
+      width:16px;
+      height:16px;
+      flex-shrink:0;
+      margin-top:2px;
+    }
+
+    .privacy a{
+      color:var(--blue);
+      text-decoration:underline;
+    }
+
+    .submit{
+      width:100%;
+      min-height:56px;
+      border:0;
+      border-radius:9px;
+      background:var(--blue);
+      color:#fff;
+      font-size:12px;
+      font-weight:950;
+      cursor:pointer;
+      box-shadow:var(--blue-shadow);
+    }
+
+    .submit:disabled{
+      opacity:.55;
+    }
+
+    /* FOOTER */
+
+    footer{
+      padding:35px 0 85px;
+      background:#f5f8fc;
+      border-top:1px solid var(--line);
+      color:#7c899a;
+      font-size:9px;
+    }
+
+    .footer-inner{
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .footer-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+    }
+
+    .mobile-cta{
+      display:none;
+    }
+
+    /* TABLET */
+
+    @media(max-width:850px){
+
+      .container{
+        width:calc(100% - 30px);
+      }
+
+      nav{
+        display:none;
+      }
+
+      .header-cta{
+        margin-left:auto;
+      }
+
+      .problem-grid,
+      .company-grid{
+        grid-template-columns:1fr;
+      }
+
+      .solution-grid,
+      .services-grid,
+      .flow-grid,
+      .case-grid{
+        grid-template-columns:1fr 1fr;
+      }
+
+      .fulfillment-grid,
+      .contact-grid{
+        grid-template-columns:1fr;
+      }
+
+      .contact-info{
+        position:static;
+      }
+
+      .mobile-cta{
+        position:fixed;
+        z-index:999;
+        left:12px;
+        right:12px;
+        bottom:10px;
+        min-height:50px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:10px;
+        background:var(--blue);
+        color:#fff;
+        font-size:11px;
+        font-weight:950;
+        box-shadow:0 10px 30px rgba(20,55,90,.24);
+      }
+    }
+
+    /* MOBILE */
+
+    @media(max-width:520px){
+
+      .container{
+        width:calc(100% - 28px);
+      }
+
+      .header-inner{
+        min-height:63px;
+      }
+
+      .logo{
+        font-size:15px;
+      }
+
+      .header-cta{
+        min-height:37px;
+        padding:0 10px;
+        font-size:9px;
+      }
+
+      .hero{
+        padding:98px 0 54px;
+      }
+
+      .badge{
+        max-width:100%;
+        font-size:7.5px;
+        white-space:normal;
+      }
+
+      .hero-title{
+        width:100%;
+        margin-top:15px;
+        font-size:32px;
+        line-height:1.18;
+        letter-spacing:-.035em;
+      }
+
+      .hero-title-pc{
+        display:none;
+      }
+
+      .hero-title-sp{
+        display:block;
+      }
+
+      .hero-copy{
+        margin-top:18px;
+        font-size:13px;
+        line-height:1.85;
+      }
+
+      .actions{
+        display:grid;
+      }
+
+      .btn-main,
+      .btn-sub{
+        width:100%;
+        min-height:51px;
+        padding:0 13px;
+        font-size:11px;
+      }
+
+      section{
+        padding:56px 0;
+      }
+
+      .title{
+        font-size:27px;
+        line-height:1.27;
+      }
+
+      .lead,
+      .fulfillment-copy{
+        font-size:12px;
+        line-height:1.85;
+      }
+
+      .problem-grid,
+      .solution-grid,
+      .case-grid,
+      .services-grid,
+      .company-grid,
+      .flow-grid{
+        grid-template-columns:1fr;
+        margin-top:27px;
+      }
+
+      .problem-card,
+      .case,
+      .company{
+        padding:20px 17px;
+      }
+
+      .two{
+        grid-template-columns:1fr;
+      }
+
+      form{
+        padding:18px 14px;
+      }
+
+      .cta-box{
+        padding:28px 18px;
+      }
+
+      .footer-inner{
+        flex-direction:column;
+      }
+    }
+
+    @media(max-width:360px){
+
+      .hero-title{
+        font-size:29px;
+      }
+
+      .logo{
+        font-size:14px;
+      }
+
+      .header-cta{
+        font-size:8px;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+<header>
+  <div class="container header-inner">
+
+    <a href="/" class="logo">
+      西日本ロジNAVI
+    </a>
+
+    <nav>
+      <a href="#solution">EC物流</a>
+      <a href="#services">対応業務</a>
+      <a href="#contact">無料相談</a>
+    </nav>
+
+    <a href="#contact" class="header-cta">
+      EC物流を無料相談
+    </a>
+
+  </div>
+</header>
+
+
+<main>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <div class="badge">
+        EC物流・発送代行・EC倉庫・3PL
+      </div>
+
+
+      <h1 class="hero-title">
+
+        <span class="hero-title-pc">
+          ECの発送、<br>
+          <span>
+            そろそろ任せませんか？
+          </span>
+        </span>
+
+        <span class="hero-title-sp">
+          ECの発送、<br>
+          <span>
+            そろそろ<br>
+            任せませんか？
+          </span>
+        </span>
+
+      </h1>
+
+
+      <p class="hero-copy">
+        商品が売れるほど増えていく、
+        入荷・保管・在庫管理・ピッキング・梱包・発送。
+        <br>
+        <strong>
+          EC物流を外部倉庫へ委託し、
+          本来の販売・商品開発・マーケティングへ集中できる物流体制へ。
+        </strong>
+      </p>
+
+
+      <div class="hero-tags">
+
+        <span class="hero-tag">
+          EC物流
+        </span>
+
+        <span class="hero-tag">
+          発送代行
+        </span>
+
+        <span class="hero-tag">
+          EC倉庫
+        </span>
+
+        <span class="hero-tag">
+          WMS
+        </span>
+
+        <span class="hero-tag">
+          全国発送
+        </span>
+
+        <span class="hero-tag">
+          3PL
+        </span>
+
+        <span class="hero-tag">
+          検品・流通加工
+        </span>
+
+        <span class="hero-tag">
+          BtoB物流
+        </span>
+
+      </div>
+
+
+      <div class="actions">
+
+        <a
+          href="#contact"
+          class="btn-main"
+        >
+          EC物流を無料で相談する →
+        </a>
+
+        <a
+          href="#solution"
+          class="btn-sub"
+        >
+          対応できることを見る
+        </a>
+
+      </div>
+
+
+      <p class="hero-note">
+        ※ これからECを始める段階、自社発送中、現在別の物流会社を利用中でもご相談いただけます。
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROBLEMS -->
+
+  <section class="problems">
+
+    <div class="container">
+
+      <p class="label">
+        EC LOGISTICS PROBLEMS
+      </p>
+
+      <h2 class="title">
+        ECが伸びるほど、<br>
+        発送業務が本業を圧迫する。
+      </h2>
+
+      <p class="lead">
+        少ない出荷件数なら自社で対応できても、
+        注文が増えると在庫・梱包・発送・問い合わせ対応など、
+        物流業務の負担も大きくなっていきます。
+      </p>
+
+
+      <div class="problem-grid">
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            箱
+          </div>
+
+          <h3>
+            毎日の梱包・発送が大変
+          </h3>
+
+          <p>
+            注文件数が増え、
+            社内スタッフが発送業務に追われている。
+          </p>
+
+        </div>
+
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            在
+          </div>
+
+          <h3>
+            在庫管理が複雑になった
+          </h3>
+
+          <p>
+            商品数やSKUが増え、
+            在庫や入出荷管理を整えたい。
+          </p>
+
+        </div>
+
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            EC
+          </div>
+
+          <h3>
+            EC売上をもっと伸ばしたい
+          </h3>
+
+          <p>
+            発送業務から離れて、
+            商品・広告・販売活動へ時間を使いたい。
+          </p>
+
+        </div>
+
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            ＋
+          </div>
+
+          <h3>
+            検品・セット組も任せたい
+          </h3>
+
+          <p>
+            梱包だけではなく、
+            ラベル貼り・セット作業なども外注したい。
+          </p>
+
+        </div>
+
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            全
+          </div>
+
+          <h3>
+            全国発送できる倉庫が欲しい
+          </h3>
+
+          <p>
+            西日本に物流拠点を置きながら、
+            全国へ商品を発送したい。
+          </p>
+
+        </div>
+
+
+        <div class="problem-card">
+
+          <div class="problem-icon">
+            ?
+          </div>
+
+          <h3>
+            どの倉庫が合うか分からない
+          </h3>
+
+          <p>
+            発送代行会社が多く、
+            自社に合う物流会社を判断できない。
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SOLUTION -->
+
+  <section class="solution" id="solution">
+
+    <div class="container">
+
+      <p class="label">
+        EC LOGISTICS SOLUTION
+      </p>
+
+      <h2 class="title">
+        商品が届いてから、<br>
+        お客様へ届くまで。
+      </h2>
+
+      <p class="lead">
+        EC物流は「発送するだけ」ではありません。
+        商品の入庫から在庫管理、検品・加工、梱包、全国発送まで、
+        一連の業務をまとめて相談できます。
+      </p>
+
+
+      <div class="solution-grid">
+
+        <div class="solution-card">
+          <small>01</small>
+          <h3>入庫</h3>
+          <p>
+            商品を倉庫で受け入れ、
+            入荷処理を行います。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>02</small>
+          <h3>倉庫保管</h3>
+          <p>
+            商品や物量に合わせて
+            倉庫で保管します。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>03</small>
+          <h3>在庫管理</h3>
+          <p>
+            WMSを活用した
+            在庫・入出荷管理。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>04</small>
+          <h3>ピッキング</h3>
+          <p>
+            注文内容に合わせて
+            商品をピッキング。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>05</small>
+          <h3>検品</h3>
+          <p>
+            商品や注文内容を
+            確認します。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>06</small>
+          <h3>流通加工</h3>
+          <p>
+            セット組・ラベル貼りなどの
+            作業を相談できます。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>07</small>
+          <h3>梱包</h3>
+          <p>
+            商品や配送条件に合わせて
+            梱包します。
+          </p>
+        </div>
+
+        <div class="solution-card">
+          <small>08</small>
+          <h3>全国発送</h3>
+          <p>
+            西日本の物流拠点から
+            全国への発送に対応。
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FULFILLMENT -->
+
+  <section class="fulfillment">
+
+    <div class="container fulfillment-grid">
+
+      <div>
+
+        <p class="label">
+          EC FULFILLMENT
+        </p>
+
+        <h2 class="title">
+          発送作業を減らし、<br>
+          ECを伸ばす時間へ。
+        </h2>
+
+        <p class="fulfillment-copy">
+          自社で物流業務を抱えると、
+          注文数が増えるほど梱包・発送に人員や時間が必要になります。
+          物流をアウトソーシングすることで、
+          販売・広告・商品開発などへ社内リソースを振り向けやすくなります。
+        </p>
+
+      </div>
+
+
+      <div class="operation">
+
+        <div class="operation-row">
+          <span>01</span>
+          <strong>商品入庫・倉庫保管</strong>
+        </div>
+
+        <div class="operation-row">
+          <span>02</span>
+          <strong>WMS・在庫管理</strong>
+        </div>
+
+        <div class="operation-row">
+          <span>03</span>
+          <strong>注文に合わせたピッキング</strong>
+        </div>
+
+        <div class="operation-row">
+          <span>04</span>
+          <strong>検品・セット組・流通加工</strong>
+        </div>
+
+        <div class="operation-row">
+          <span>05</span>
+          <strong>梱包・全国発送</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CASES -->
+
+  <section class="cases">
+
+    <div class="container">
+
+      <p class="label">
+        EC LOGISTICS CONSULTATION
+      </p>
+
+      <h2 class="title">
+        こんな段階から、<br>
+        ご相談いただけます。
+      </h2>
+
+
+      <div class="case-grid">
+
+        <article class="case">
+
+          <small>
+            CASE 01 / NEW EC
+          </small>
+
+          <h3>
+            これからECを始める
+          </h3>
+
+          <p>
+            EC立ち上げ時点から、
+            商品保管・在庫管理・出荷までを外部へ委託したい。
+          </p>
+
+          <div class="case-tags">
+            <span>新規EC</span>
+            <span>倉庫選定</span>
+            <span>発送代行</span>
+          </div>
+
+        </article>
+
+
+        <article class="case">
+
+          <small>
+            CASE 02 / IN-HOUSE
+          </small>
+
+          <h3>
+            自社発送から切り替えたい
+          </h3>
+
+          <p>
+            注文数が増え、
+            社内での梱包・発送作業が限界になってきた。
+          </p>
+
+          <div class="case-tags">
+            <span>自社発送</span>
+            <span>物流外注</span>
+            <span>3PL</span>
+          </div>
+
+        </article>
+
+
+        <article class="case">
+
+          <small>
+            CASE 03 / GROWTH
+          </small>
+
+          <h3>
+            月間出荷数が増えてきた
+          </h3>
+
+          <p>
+            事業拡大に合わせて、
+            在庫・出荷をより安定して運用できる物流体制を検討したい。
+          </p>
+
+          <div class="case-tags">
+            <span>物流拡大</span>
+            <span>WMS</span>
+            <span>全国発送</span>
+          </div>
+
+        </article>
+
+
+        <article class="case">
+
+          <small>
+            CASE 04 / SWITCH
+          </small>
+
+          <h3>
+            今のEC物流会社を見直したい
+          </h3>
+
+          <p>
+            現在の物流条件・作業内容・対応力などを踏まえて、
+            別の物流会社とも比較してみたい。
+          </p>
+
+          <div class="case-tags">
+            <span>物流比較</span>
+            <span>倉庫移管</span>
+            <span>乗り換え</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SERVICES -->
+
+  <section class="services" id="services">
+
+    <div class="container">
+
+      <p class="label">
+        LOGISTICS SERVICES
+      </p>
+
+      <h2 class="title">
+        ECだけでなく、<br>
+        物流全体を相談。
+      </h2>
+
+      <p class="lead">
+        EC出荷だけでなく、
+        倉庫保管・流通加工・BtoB物流なども含めて
+        物流全体を相談できます。
+      </p>
+
+
+      <div class="services-grid">
+
+        <div class="service">
+          <h3>EC物流</h3>
+          <p>
+            EC商品の保管・梱包・出荷。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>発送代行</h3>
+          <p>
+            全国への商品発送。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>EC倉庫</h3>
+          <p>
+            EC商品の保管・物流拠点。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>WMS</h3>
+          <p>
+            入庫・在庫・出荷管理。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>3PL</h3>
+          <p>
+            物流業務全体の委託。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>検品</h3>
+          <p>
+            商品・注文内容の確認。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>流通加工</h3>
+          <p>
+            セット組・ラベル貼りなど。
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>BtoB物流</h3>
+          <p>
+            店舗・企業・卸先への出荷。
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- NETWORK -->
+
+  <section class="network">
+
+    <div class="container">
+
+      <p class="label">
+        WEST JAPAN LOGISTICS NETWORK
+      </p>
+
+      <h2 class="title">
+        大阪・福岡・神戸から、<br>
+        全国へ発送。
+      </h2>
+
+      <p class="lead">
+        3社それぞれの物流拠点と特徴を活かし、
+        EC物流・発送代行・倉庫保管・3PLなどをご相談いただけます。
+      </p>
+
+
+      <div class="company-grid">
+
+        <article class="company">
+
+          <small>
+            OSAKA
+          </small>
+
+          <h3>
+            株式会社GAMI
+          </h3>
+
+          <p>
+            小ロットEC物流から、
+            BtoB物流・検品・流通加工・輸送手配まで対応。
+          </p>
+
+          <div class="company-list">
+            <div>全国発送</div>
+            <div>WMS</div>
+            <div>EC・BtoB物流</div>
+            <div>流通加工</div>
+            <div>利用運送</div>
+            <div>化粧品製造業許可取得倉庫</div>
+          </div>
+
+        </article>
+
+
+        <article class="company">
+
+          <small>
+            FUKUOKA
+          </small>
+
+          <h3>
+            株式会社マックスエクスプレス
+          </h3>
+
+          <p>
+            福岡を拠点に、
+            3PL・EC物流・発送代行・EC支援などに対応。
+          </p>
+
+          <div class="company-list">
+            <div>全国発送</div>
+            <div>WMS</div>
+            <div>3PL</div>
+            <div>EC物流</div>
+            <div>発送代行</div>
+            <div>EC・IT支援</div>
+          </div>
+
+        </article>
+
+
+        <article class="company">
+
+          <small>
+            KOBE
+          </small>
+
+          <h3>
+            株式会社エスグロー
+          </h3>
+
+          <p>
+            神戸の物流拠点から、
+            3PL・EC物流・発送代行・在庫管理・流通加工などに対応。
+          </p>
+
+          <div class="company-list">
+            <div>全国発送</div>
+            <div>WMS</div>
+            <div>3PL</div>
+            <div>EC物流</div>
+            <div>在庫管理</div>
+            <div>流通加工</div>
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FLOW -->
+
+  <section class="flow">
+
+    <div class="container">
+
+      <p class="label">
+        CONSULTATION FLOW
+      </p>
+
+      <h2 class="title">
+        物流会社が決まっていなくても、<br>
+        大丈夫です。
+      </h2>
+
+
+      <div class="flow-grid">
+
+        <div class="flow-card">
+
+          <small>
+            STEP 01
+          </small>
+
+          <h3>
+            無料相談
+          </h3>
+
+          <p>
+            現在のEC物流や新規案件について
+            分かる範囲でご相談ください。
+          </p>
+
+        </div>
+
+
+        <div class="flow-card">
+
+          <small>
+            STEP 02
+          </small>
+
+          <h3>
+            条件確認
+          </h3>
+
+          <p>
+            商品・SKU・出荷件数・保管量・作業内容などを確認。
+          </p>
+
+        </div>
+
+
+        <div class="flow-card">
+
+          <small>
+            STEP 03
+          </small>
+
+          <h3>
+            物流体制を検討
+          </h3>
+
+          <p>
+            3社の特徴を踏まえて、
+            案件に合う物流体制を整理します。
+          </p>
+
+        </div>
+
+
+        <div class="flow-card">
+
+          <small>
+            STEP 04
+          </small>
+
+          <h3>
+            導入・移管
+          </h3>
+
+          <p>
+            条件が合えば、
+            物流導入や倉庫移管を具体化します。
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA -->
+
+  <section class="cta">
+
+    <div class="container">
+
+      <div class="cta-box">
+
+        <h2 class="title">
+          発送に追われるECから、<br>
+          売ることに集中できるECへ。
+        </h2>
+
+        <p>
+          まだ月間出荷件数が少ない段階でも、
+          今後の成長を見据えて物流体制を相談できます。
+        </p>
+
+        <a
+          href="#contact"
+          class="btn-main"
+        >
+          EC物流を無料相談する →
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+
+        <p class="label">
+          FREE CONSULTATION
+        </p>
+
+        <h2 class="title">
+          EC物流、<br>
+          まずは相談してみませんか？
+        </h2>
+
+        <p class="lead">
+          新規EC・自社発送からの切り替え・現在の物流会社との比較など、
+          まだ依頼先が決まっていない段階でもご相談いただけます。
+        </p>
+
+        <div class="operator">
+
+          <strong>
+            西日本ロジNAVI
+          </strong>
+
+          <br>
+
+          運営・一次受付：株式会社GAMI
+
+        </div>
+
+      </div>
+
+
+      <form id="contactForm">
+
+        <div class="form-grid">
+
+
+          <div class="two">
+
+            <div>
+
+              <label class="field-label">
+                会社名
+                <span class="req">
+                  必須
+                </span>
+              </label>
+
+              <input
+                type="text"
+                name="company"
+                required
+                autocomplete="organization"
+              >
+
+            </div>
+
+
+            <div>
+
+              <label class="field-label">
+                お名前
+                <span class="req">
+                  必須
+                </span>
+              </label>
+
+              <input
+                type="text"
+                name="name"
+                required
+                autocomplete="name"
+              >
+
+            </div>
+
+          </div>
+
+
+          <div class="two">
+
+            <div>
+
+              <label class="field-label">
+                メールアドレス
+                <span class="req">
+                  必須
+                </span>
+              </label>
+
+              <input
+                type="email"
+                name="email"
+                required
+                autocomplete="email"
+              >
+
+            </div>
+
+
+            <div>
+
+              <label class="field-label">
+                電話番号
+              </label>
+
+              <input
+                type="tel"
+                name="tel"
+                autocomplete="tel"
+              >
+
+            </div>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              ご相談内容
+            </label>
+
+            <select id="consultType">
+
+              <option>
+                EC物流・発送代行を新しく探している
+              </option>
+
+              <option>
+                自社発送から物流会社へ切り替えたい
+              </option>
+
+              <option>
+                新規ECの物流を相談したい
+              </option>
+
+              <option>
+                現在のEC物流会社と比較したい
+              </option>
+
+              <option>
+                EC倉庫を探している
+              </option>
+
+              <option>
+                WMS・在庫管理
+              </option>
+
+              <option>
+                検品・流通加工
+              </option>
+
+              <option>
+                BtoB物流も含めて相談したい
+              </option>
+
+              <option>
+                その他
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              現在の物流状況
+            </label>
+
+            <select id="currentLogistics">
+
+              <option value="">
+                選択してください
+              </option>
+
+              <option>
+                自社で発送している
+              </option>
+
+              <option>
+                物流会社を利用している
+              </option>
+
+              <option>
+                Amazon FBAを利用している
+              </option>
+
+              <option>
+                複数の物流サービスを利用している
+              </option>
+
+              <option>
+                これからECを始める
+              </option>
+
+              <option>
+                その他
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              相談したい会社
+            </label>
+
+            <select
+              name="target"
+              id="targetCompany"
+            >
+
+              <option>
+                まだ決めていない・相談して選びたい
+              </option>
+
+              <option>
+                株式会社GAMI
+              </option>
+
+              <option>
+                株式会社マックスエクスプレス
+              </option>
+
+              <option>
+                株式会社エスグロー
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div>
+
+            <label class="field-label">
+              お問い合わせ内容
+              <span class="req">
+                必須
+              </span>
+            </label>
+
+            <textarea
+              name="message"
+              required
+              placeholder="例：現在、自社で月間500件ほど発送しています。出荷件数が増えてきたため、EC物流の外注を検討しています。"
+            ></textarea>
+
+          </div>
+
+
+          <label class="privacy">
+
+            <input
+              type="checkbox"
+              required
+            >
+
+            <span>
+
+              <a
+                href="/privacy.html"
+                target="_blank"
+                rel="noopener"
+              >
+                プライバシーポリシー
+              </a>
+
+              に同意して送信します。
+
+            </span>
+
+          </label>
+
+
+          <button
+            type="submit"
+            class="submit"
+          >
+            EC物流を無料相談する →
+          </button>
+
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-inner">
+
+    <div>
+      © 西日本ロジNAVI<br>
+      運営：株式会社GAMI
+    </div>
+
+    <div class="footer-links">
+
+      <a href="/">
+        トップ
+      </a>
+
+      <a href="/logistics-comparison.html">
+        物流会社比較
+      </a>
+
+      <a href="/amazon-fba-logistics.html">
+        Amazon・EC物流見直し
+      </a>
+
+      <a href="/privacy.html">
+        プライバシーポリシー
+      </a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<a
+  href="#contact"
+  class="mobile-cta"
+>
+  EC物流を無料相談する →
+</a>
+
+
+<script>
+
+  document
+    .getElementById("contactForm")
+    .addEventListener(
+      "submit",
+      async function(e){
+
+        e.preventDefault();
+
+        const form =
+          e.currentTarget;
+
+        const button =
+          form.querySelector(".submit");
+
+        const formData =
+          new FormData(form);
+
+        const consultType =
+          document
+            .getElementById("consultType")
+            .value;
+
+        const currentLogistics =
+          document
+            .getElementById("currentLogistics")
+            .value;
+
+
+        let message = "";
+
+
+        if(consultType){
+
+          message +=
+            "【ご相談内容】\n" +
+            consultType +
+            "\n\n";
+
+        }
+
+
+        if(currentLogistics){
+
+          message +=
+            "【現在の物流状況】\n" +
+            currentLogistics +
+            "\n\n";
+
+        }
+
+
+        message +=
+          "【お問い合わせ内容】\n" +
+          formData.get("message");
+
+
+        const data = {
+
+          company:
+            formData.get("company"),
+
+          name:
+            formData.get("name"),
+
+          email:
+            formData.get("email"),
+
+          tel:
+            formData.get("tel"),
+
+          target:
+            formData.get("target"),
+
+          message:
+            message
+
+        };
+
+
+        const originalText =
+          button.textContent;
+
+
+        button.disabled = true;
+
+        button.textContent =
+          "送信中...";
+
+
+        try{
+
+          const response =
+            await fetch(
+              "/api/contact",
+              {
+
+                method:"POST",
+
+                headers:{
+                  "Content-Type":
+                    "application/json"
+                },
+
+                body:
+                  JSON.stringify(data)
+
+              }
+            );
+
+
+          const result =
+            await response.json();
+
+
+          if(!response.ok){
+
+            throw new Error(
+              result.error ||
+              "送信に失敗しました。"
+            );
+
+          }
+
+
+          alert(
+            "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
+          );
+
+
+          form.reset();
+
+
+        }catch(error){
+
+          console.error(error);
+
+
+          alert(
+            "送信に失敗しました。\n時間をおいて再度お試しください。"
+          );
+
+
+        }finally{
+
+          button.disabled = false;
+
+          button.textContent =
+            originalText;
+
+        }
+
+      }
+    );
+
+</script>
+
+
+</body>
+</html>
