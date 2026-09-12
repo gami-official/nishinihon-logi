@@ -2665,7 +2665,15 @@
             );
 
           }
-
+// GA4：問い合わせ完了を計測
+if (typeof gtag === "function") {
+  gtag("event", "generate_lead", {
+    lead_source: "contact_form",
+    target_company: formData.get("target") || "",
+    consult_type: consultType || "",
+    current_logistics: currentLogistics || ""
+  });
+}
           alert(
             "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
           );
