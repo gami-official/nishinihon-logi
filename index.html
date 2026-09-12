@@ -49,7 +49,6 @@
       --softblue:#edf5ff;
       --white:#fff;
       --green:#0aa56b;
-      --orange:#f68a23;
       --shadow:0 18px 50px rgba(21,55,95,.08);
       --blue-shadow:0 16px 34px rgba(18,103,239,.22);
     }
@@ -235,18 +234,25 @@
       background:var(--blue);
     }
 
-    h1{
+    .hero-title{
       max-width:1000px;
       margin-top:20px;
       font-size:clamp(47px,6vw,84px);
       line-height:1.04;
       letter-spacing:-.055em;
       font-weight:950;
-      word-break:keep-all;
     }
 
-    h1 .blue{
+    .hero-title .blue{
       color:var(--blue);
+    }
+
+    .hero-title-pc{
+      display:block;
+    }
+
+    .hero-title-sp{
+      display:none;
     }
 
     .hero-copy{
@@ -1024,8 +1030,9 @@
         padding:106px 0 57px;
       }
 
-      h1{
-        font-size:clamp(39px,9vw,57px);
+      .hero-title{
+        font-size:clamp(37px,8vw,54px);
+        line-height:1.08;
       }
 
       .hero-copy{
@@ -1076,19 +1083,19 @@
 
       .mobile-cta{
         position:fixed;
-        left:11px;
-        right:11px;
-        bottom:11px;
+        left:12px;
+        right:12px;
+        bottom:10px;
         z-index:999;
-        min-height:54px;
+        min-height:50px;
         display:flex;
         align-items:center;
         justify-content:center;
         border-radius:10px;
-        background:var(--blue);
+        background:rgba(18,103,239,.96);
         color:#fff;
-        box-shadow:0 12px 35px rgba(20,50,90,.28);
-        font-size:12px;
+        box-shadow:0 10px 28px rgba(20,50,90,.24);
+        font-size:11px;
         font-weight:950;
       }
     }
@@ -1106,24 +1113,37 @@
       }
 
       .head-cta{
-        padding:0 11px;
+        padding:0 10px;
         font-size:9px;
       }
 
       .hero{
-        padding:95px 0 49px;
+        padding:94px 0 49px;
       }
 
       .hero-badge{
-        font-size:8px;
-        padding:6px 10px;
+        max-width:100%;
+        font-size:7.5px;
+        padding:6px 9px;
+        letter-spacing:.07em;
+        white-space:normal;
       }
 
-      h1{
+      .hero-title{
+        width:100%;
+        max-width:100%;
         margin-top:16px;
-        font-size:clamp(33px,9.2vw,41px);
-        line-height:1.1;
-        letter-spacing:-.04em;
+        font-size:34px;
+        line-height:1.16;
+        letter-spacing:-.035em;
+      }
+
+      .hero-title-pc{
+        display:none;
+      }
+
+      .hero-title-sp{
+        display:block;
       }
 
       .hero-copy{
@@ -1149,6 +1169,7 @@
       .btn{
         width:100%;
         min-height:51px;
+        padding:0 14px;
         font-size:11px;
       }
 
@@ -1254,6 +1275,22 @@
       }
     }
 
+    @media(max-width:360px){
+
+      .hero-title{
+        font-size:30px;
+      }
+
+      .head-cta{
+        padding:0 8px;
+        font-size:8px;
+      }
+
+      .logo strong{
+        font-size:14px;
+      }
+    }
+
   </style>
 </head>
 
@@ -1283,8 +1320,6 @@
 
 <main>
 
-  <!-- HERO -->
-
   <section class="hero">
 
     <div class="container">
@@ -1293,9 +1328,23 @@
         物流会社の比較・乗り換え・新規立ち上げ
       </div>
 
-      <h1>
-        今の物流、<br>
-        <span class="blue">本当にそのままでいいですか？</span>
+      <h1 class="hero-title">
+
+        <span class="hero-title-pc">
+          今の物流、<br>
+          <span class="blue">
+            本当にそのままでいいですか？
+          </span>
+        </span>
+
+        <span class="hero-title-sp">
+          今の物流、<br>
+          <span class="blue">
+            本当にそのままで<br>
+            いいですか？
+          </span>
+        </span>
+
       </h1>
 
       <p class="hero-copy">
@@ -1366,15 +1415,15 @@
   </section>
 
 
-  <!-- PROBLEMS -->
-
   <section class="section problem">
 
     <div class="container">
 
       <div class="problem-head">
 
-        <p class="label">LOGISTICS PROBLEMS</p>
+        <p class="label">
+          LOGISTICS PROBLEMS
+        </p>
 
         <h2 class="title">
           こんな物流の悩み、<br>
@@ -1469,7 +1518,9 @@
 
       <div class="answer">
 
-        <small>WEST JAPAN LOGISTICS NAVI</small>
+        <small>
+          WEST JAPAN LOGISTICS NAVI
+        </small>
 
         <h3>
           その物流、3社のネットワークで整理します。
@@ -1486,8 +1537,6 @@
     </div>
   </section>
 
-
-  <!-- SWITCH -->
 
   <section class="section switch" id="compare">
 
@@ -1513,7 +1562,9 @@
 
         <article class="switch-card">
 
-          <span class="num">01 / AMAZON</span>
+          <span class="num">
+            01 / AMAZON
+          </span>
 
           <h3>
             Amazon FBAを含む物流の見直し
@@ -1537,7 +1588,9 @@
 
         <article class="switch-card">
 
-          <span class="num">02 / RAKUTEN・YAHOO!</span>
+          <span class="num">
+            02 / RAKUTEN・YAHOO!
+          </span>
 
           <h3>
             楽天・Yahoo!など複数モール物流
@@ -1561,7 +1614,9 @@
 
         <article class="switch-card">
 
-          <span class="num">03 / CURRENT 3PL</span>
+          <span class="num">
+            03 / CURRENT 3PL
+          </span>
 
           <h3>
             現在の物流会社との比較
@@ -1585,7 +1640,9 @@
 
         <article class="switch-card">
 
-          <span class="num">04 / NEW BUSINESS</span>
+          <span class="num">
+            04 / NEW BUSINESS
+          </span>
 
           <h3>
             新規EC・新規物流の立ち上げ
@@ -1635,8 +1692,6 @@
     </div>
   </section>
 
-
-  <!-- NETWORK -->
 
   <section class="section network">
 
@@ -1692,8 +1747,6 @@
     </div>
   </section>
 
-
-  <!-- WMS -->
 
   <section class="section wms">
 
@@ -1753,8 +1806,6 @@
   </section>
 
 
-  <!-- COMPANIES -->
-
   <section class="section companies" id="companies">
 
     <div class="container">
@@ -1776,8 +1827,6 @@
 
 
       <div class="companies-grid">
-
-        <!-- GAMI -->
 
         <article class="company">
 
@@ -1834,8 +1883,6 @@
         </article>
 
 
-        <!-- MAX -->
-
         <article class="company">
 
           <span class="city">
@@ -1889,8 +1936,6 @@
 
         </article>
 
-
-        <!-- SGROW -->
 
         <article class="company">
 
@@ -1950,8 +1995,6 @@
     </div>
   </section>
 
-
-  <!-- SERVICES -->
 
   <section class="section services" id="services">
 
@@ -2020,8 +2063,6 @@
   </section>
 
 
-  <!-- FLOW -->
-
   <section class="section flow">
 
     <div class="container">
@@ -2080,8 +2121,6 @@
   </section>
 
 
-  <!-- CTA -->
-
   <section class="section big-cta">
 
     <div class="container big-cta-inner">
@@ -2122,8 +2161,6 @@
     </div>
   </section>
 
-
-  <!-- CONTACT -->
 
   <section class="section contact" id="contact">
 
@@ -2168,7 +2205,6 @@
       <form id="contactForm">
 
         <div class="form-grid">
-
 
           <div class="two">
 
@@ -2244,65 +2280,21 @@
 
             <select id="consultType">
 
-              <option value="">
-                選択してください
-              </option>
-
-              <option>
-                現在の物流会社との比較
-              </option>
-
-              <option>
-                Amazon FBAを含む物流の見直し
-              </option>
-
-              <option>
-                楽天市場・Yahoo!ショッピングなどの物流見直し
-              </option>
-
-              <option>
-                新規EC物流の立ち上げ
-              </option>
-
-              <option>
-                倉庫移管
-              </option>
-
-              <option>
-                物流コストの見直し
-              </option>
-
-              <option>
-                3PL
-              </option>
-
-              <option>
-                EC物流
-              </option>
-
-              <option>
-                発送代行
-              </option>
-
-              <option>
-                倉庫保管
-              </option>
-
-              <option>
-                WMS・在庫管理
-              </option>
-
-              <option>
-                検品・流通加工
-              </option>
-
-              <option>
-                BtoB物流
-              </option>
-
-              <option>
-                その他・まだ決まっていない
-              </option>
+              <option value="">選択してください</option>
+              <option>現在の物流会社との比較</option>
+              <option>Amazon FBAを含む物流の見直し</option>
+              <option>楽天市場・Yahoo!ショッピングなどの物流見直し</option>
+              <option>新規EC物流の立ち上げ</option>
+              <option>倉庫移管</option>
+              <option>物流コストの見直し</option>
+              <option>3PL</option>
+              <option>EC物流</option>
+              <option>発送代行</option>
+              <option>倉庫保管</option>
+              <option>WMS・在庫管理</option>
+              <option>検品・流通加工</option>
+              <option>BtoB物流</option>
+              <option>その他・まだ決まっていない</option>
 
             </select>
 
@@ -2317,37 +2309,14 @@
 
             <select id="currentLogistics">
 
-              <option value="">
-                選択してください
-              </option>
-
-              <option>
-                Amazon FBAを利用中
-              </option>
-
-              <option>
-                楽天関連の物流を利用中
-              </option>
-
-              <option>
-                Yahoo!ショッピング関連の物流を利用中
-              </option>
-
-              <option>
-                その他の3PL・物流会社を利用中
-              </option>
-
-              <option>
-                自社で発送している
-              </option>
-
-              <option>
-                これからEC・物流を始める
-              </option>
-
-              <option>
-                その他
-              </option>
+              <option value="">選択してください</option>
+              <option>Amazon FBAを利用中</option>
+              <option>楽天関連の物流を利用中</option>
+              <option>Yahoo!ショッピング関連の物流を利用中</option>
+              <option>その他の3PL・物流会社を利用中</option>
+              <option>自社で発送している</option>
+              <option>これからEC・物流を始める</option>
+              <option>その他</option>
 
             </select>
 
@@ -2365,21 +2334,10 @@
               id="targetCompany"
             >
 
-              <option>
-                まだ決めていない・相談して選びたい
-              </option>
-
-              <option>
-                株式会社GAMI
-              </option>
-
-              <option>
-                株式会社マックスエクスプレス
-              </option>
-
-              <option>
-                株式会社エスグロー
-              </option>
+              <option>まだ決めていない・相談して選びたい</option>
+              <option>株式会社GAMI</option>
+              <option>株式会社マックスエクスプレス</option>
+              <option>株式会社エスグロー</option>
 
             </select>
 
@@ -2508,16 +2466,9 @@
 
     if(!select) return;
 
-    for(
-      let i = 0;
-      i < select.options.length;
-      i++
-    ){
+    for(let i = 0; i < select.options.length; i++){
 
-      if(
-        select.options[i].text.trim()
-        === companyName
-      ){
+      if(select.options[i].text.trim() === companyName){
 
         select.selectedIndex = i;
         break;
@@ -2538,29 +2489,19 @@
         e.preventDefault();
 
         const form = e.currentTarget;
-
-        const button =
-          form.querySelector(".submit");
-
-        const formData =
-          new FormData(form);
+        const button = form.querySelector(".submit");
+        const formData = new FormData(form);
 
         const consultType =
-          document.getElementById(
-            "consultType"
-          ).value;
+          document.getElementById("consultType").value;
 
         const currentLogistics =
-          document.getElementById(
-            "currentLogistics"
-          ).value;
+          document.getElementById("currentLogistics").value;
 
         let message =
           formData.get("message");
 
-
         let additional = "";
-
 
         if(consultType){
 
@@ -2571,7 +2512,6 @@
 
         }
 
-
         if(currentLogistics){
 
           additional +=
@@ -2581,12 +2521,10 @@
 
         }
 
-
         message =
           additional +
           "【お問い合わせ内容】\n" +
           message;
-
 
         const data = {
 
@@ -2610,16 +2548,11 @@
 
         };
 
-
         const originalText =
           button.textContent;
 
-
         button.disabled = true;
-
-        button.textContent =
-          "送信中...";
-
+        button.textContent = "送信中...";
 
         try{
 
@@ -2627,24 +2560,16 @@
             await fetch(
               "/api/contact",
               {
-
                 method:"POST",
-
                 headers:{
-                  "Content-Type":
-                    "application/json"
+                  "Content-Type":"application/json"
                 },
-
-                body:
-                  JSON.stringify(data)
-
+                body:JSON.stringify(data)
               }
             );
 
-
           const result =
             await response.json();
-
 
           if(!response.ok){
 
@@ -2655,14 +2580,11 @@
 
           }
 
-
           alert(
             "お問い合わせありがとうございます。\n内容を確認後、運営窓口よりご連絡いたします。"
           );
 
-
           form.reset();
-
 
         }catch(error){
 
@@ -2672,13 +2594,10 @@
             "送信に失敗しました。\n時間をおいて再度お試しください。"
           );
 
-
         }finally{
 
           button.disabled = false;
-
-          button.textContent =
-            originalText;
+          button.textContent = originalText;
 
         }
 
